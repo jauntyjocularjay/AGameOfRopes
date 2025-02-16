@@ -29,7 +29,7 @@ public class Character : Prop
     {
         bind += i;
     }
-    public void Attack()
+    public void AttackTarget()
     {
         target.IncrementWill(-2);
         IncrementWill(1);
@@ -42,4 +42,8 @@ public class Character : Prop
             target.IncrementWill(-2);
         }
     }
+    public void GuardTarget()
+    {}
+    public void TeaseTarget()
+    {}
 }
