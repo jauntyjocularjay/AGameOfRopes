@@ -1,3 +1,4 @@
+using System;
 using UnityEngine;
 
 public class Iris : Character
@@ -13,7 +14,10 @@ public class Iris : Character
     }
     void FixedUpdate()
     {
-        RegenerateWill();
+        // RegenerateWill(); // @stretch goal 
+    }
+    void Decide()
+    {
     }
     void RegenerateWill()
     {
@@ -43,4 +47,5 @@ public class Iris : Character
     {
         target.IncrementWill(-data.damage);
     }
+
 }
