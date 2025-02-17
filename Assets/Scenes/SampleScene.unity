@@ -766,6 +766,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3603ea315ae604742969d0e8cd62e0d9, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  specialMultiplier: 0
+  data: {fileID: 0}
   target: {fileID: 1098033471}
 --- !u!212 &792707658
 SpriteRenderer:
@@ -837,6 +839,37 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &1001595395
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1001595396}
+  m_Layer: 0
+  m_Name: _GameManager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1001595396
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1001595395}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1028730339
 GameObject:
   m_ObjectHideFlags: 0
@@ -849,7 +882,6 @@ GameObject:
   - component: {fileID: 1028730344}
   - component: {fileID: 1028730343}
   - component: {fileID: 1028730342}
-  - component: {fileID: 1028730341}
   m_Layer: 5
   m_Name: Tease
   m_TagString: Untagged
@@ -877,18 +909,6 @@ RectTransform:
   m_AnchoredPosition: {x: 721, y: -2}
   m_SizeDelta: {x: 160, y: 30}
   m_Pivot: {x: 0.5, y: 0.5}
---- !u!114 &1028730341
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1028730339}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 75033adadbb7641e7adfadacd2d2fd68, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!114 &1028730342
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -933,8 +953,8 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 1028730341}
-        m_TargetAssemblyTypeName: Actions, Assembly-CSharp
+      - m_Target: {fileID: 792707657}
+        m_TargetAssemblyTypeName: Character, Assembly-CSharp
         m_MethodName: Tease
         m_Mode: 1
         m_Arguments:
@@ -1013,6 +1033,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a768f841bdce14330bad4419cb5b25ad, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  specialMultiplier: 0
+  data: {fileID: 0}
   target: {fileID: 792707657}
 --- !u!212 &1098033472
 SpriteRenderer:
@@ -1136,7 +1158,6 @@ GameObject:
   - component: {fileID: 1290061182}
   - component: {fileID: 1290061181}
   - component: {fileID: 1290061180}
-  - component: {fileID: 1290061179}
   m_Layer: 5
   m_Name: Bind
   m_TagString: Untagged
@@ -1164,18 +1185,6 @@ RectTransform:
   m_AnchoredPosition: {x: -239, y: -5}
   m_SizeDelta: {x: 160, y: 30}
   m_Pivot: {x: 0.5, y: 0.5}
---- !u!114 &1290061179
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1290061177}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 75033adadbb7641e7adfadacd2d2fd68, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!114 &1290061180
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1220,8 +1229,8 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 1290061179}
-        m_TargetAssemblyTypeName: Actions, Assembly-CSharp
+      - m_Target: {fileID: 792707657}
+        m_TargetAssemblyTypeName: Character, Assembly-CSharp
         m_MethodName: Bind
         m_Mode: 1
         m_Arguments:
@@ -1505,7 +1514,6 @@ GameObject:
   - component: {fileID: 1954214455}
   - component: {fileID: 1954214454}
   - component: {fileID: 1954214453}
-  - component: {fileID: 1954214452}
   m_Layer: 5
   m_Name: Attack
   m_TagString: Untagged
@@ -1533,18 +1541,6 @@ RectTransform:
   m_AnchoredPosition: {x: -802, y: -6}
   m_SizeDelta: {x: 160, y: 30}
   m_Pivot: {x: 0.5, y: 0.5}
---- !u!114 &1954214452
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1954214450}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 75033adadbb7641e7adfadacd2d2fd68, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!114 &1954214453
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1589,8 +1585,8 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 1954214452}
-        m_TargetAssemblyTypeName: Actions, Assembly-CSharp
+      - m_Target: {fileID: 792707657}
+        m_TargetAssemblyTypeName: Character, Assembly-CSharp
         m_MethodName: Attack
         m_Mode: 1
         m_Arguments:
@@ -1651,7 +1647,6 @@ GameObject:
   - component: {fileID: 1989097952}
   - component: {fileID: 1989097951}
   - component: {fileID: 1989097950}
-  - component: {fileID: 1989097949}
   m_Layer: 5
   m_Name: Guard
   m_TagString: Untagged
@@ -1679,18 +1674,6 @@ RectTransform:
   m_AnchoredPosition: {x: 340, y: 0}
   m_SizeDelta: {x: 160, y: 30}
   m_Pivot: {x: 0.5, y: 0.5}
---- !u!114 &1989097949
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1989097947}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 75033adadbb7641e7adfadacd2d2fd68, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!114 &1989097950
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1735,8 +1718,8 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 1989097949}
-        m_TargetAssemblyTypeName: Actions, Assembly-CSharp
+      - m_Target: {fileID: 792707657}
+        m_TargetAssemblyTypeName: Character, Assembly-CSharp
         m_MethodName: Guard
         m_Mode: 1
         m_Arguments:
@@ -2142,3 +2125,4 @@ SceneRoots:
   - {fileID: 1357296403}
   - {fileID: 777000814}
   - {fileID: 1841618656}
+  - {fileID: 1001595396}

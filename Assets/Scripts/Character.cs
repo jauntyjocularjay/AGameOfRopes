@@ -1,55 +1,47 @@
 using UnityEngine;
 
-public abstract class Character : Prop
+abstract public class Character : Prop
 {
-    int will;
-    int bindings;
-    public float specialMultiplier;
+    public int specialMultiplier;
+    public int updateCounter = 0;
+    public int countsPerUpdate;
+    
     public CharacterData data;
     public Character target;
     public new void Start()
     {
         base.Start();
-        will = data.maxWill;
-        bindings = 0;
-    }
-    void Update()
-    {
-        
+        data.will = data.maxWill;
+        data.bindings = 0;
     }
     public int Will()
     {
-        return will;
+        return data.will;
     }
-    public void IncrementWill(int i)
+    public void Will(int i)
     {
-        will += i;
+        data.will = i;
+    }
+    public void IncrementWill(int i = 1)
+    {
+        data.will += i;
     }
     public int Bindings()
     {
-        return bindings;
+        return data.bindings;
+    }
+    public void Bindings(int i)
+    {
+        data.bindings = i;
     }
     public void IncrementBind(int i)
     {
-        bindings += i;
+        data.bindings += i;
     }
-    public void Attack()
-    {
-        target.IncrementWill(-data.damage);
-    }
-    public void Bind()
-    {
-        if(target.Will() < Will())
-        {
-            target.IncrementBind(20);
-            // target.IncrementWill(-20);
-        }
-    }
-    public void Guard()
-    {}
-    public void Tease()
-    {}
-
-    public abstract int Damage();
-    public abstract int Struggle();
+    abstract public void Attack();
+    public void Bind(){}
+    public void Guard(){}
+    public void Tease(){}
+    abstract public int Damage();
+    abstract public int Struggle();
 }

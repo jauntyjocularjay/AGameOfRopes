@@ -4,7 +4,9 @@ using UnityEngine;
 public class CharacterData : ScriptableObject
 {
     public int maxWill = 120;
+    public int will;
     public int maxBindings = 120;
+    public int bindings;
     public int damage;
     public int bind;
     public int specialMultiplier;
