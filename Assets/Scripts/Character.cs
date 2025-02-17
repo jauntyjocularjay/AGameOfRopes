@@ -1,13 +1,17 @@
 using UnityEngine;
 
-public class Character : Prop
+public abstract class Character : Prop
 {
-    int will = 12;
-    int bind = 12;
+    int will;
+    int bindings;
+    public float specialMultiplier;
+    public CharacterData data;
     public Character target;
     public new void Start()
     {
         base.Start();
+        will = data.maxWill;
+        bindings = 0;
     }
     void Update()
     {
@@ -21,29 +25,31 @@ public class Character : Prop
     {
         will += i;
     }
-    public int Bind()
+    public int Bindings()
     {
-        return bind;
+        return bindings;
     }
     public void IncrementBind(int i)
     {
-        bind += i;
+        bindings += i;
     }
-    public void AttackTarget()
+    public void Attack()
     {
-        target.IncrementWill(-2);
-        IncrementWill(1);
+        target.IncrementWill(-data.damage);
     }
-    public void BindTarget()
+    public void Bind()
     {
         if(target.Will() < Will())
         {
-            target.IncrementBind(2);
-            target.IncrementWill(-2);
+            target.IncrementBind(20);
+            // target.IncrementWill(-20);
         }
     }
-    public void GuardTarget()
+    public void Guard()
     {}
-    public void TeaseTarget()
+    public void Tease()
     {}
+
+    public abstract int Damage();
+    public abstract int Struggle();
 }

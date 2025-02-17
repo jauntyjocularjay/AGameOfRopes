@@ -1,0 +1,15 @@
+{
+	"folders": [
+		{
+			"name": "Scripts",
+			"path": "Scripts"
+		},
+		{
+			"name": "AGameOfRopes",
+			"path": ".."
+		}
+	],
+	"settings": {
+		"dotnet.defaultSolution": "AGameOfRopes.sln"
+	}
+}
