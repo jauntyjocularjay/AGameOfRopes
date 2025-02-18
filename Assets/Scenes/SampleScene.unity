@@ -245,6 +245,22 @@ PrefabInstance:
       propertyPath: m_Name
       value: _GameManager
       objectReference: {fileID: 0}
+    - target: {fileID: 2095741081992317002, guid: fecc7a7c8ff184edf8a410d3fe035ddb, type: 3}
+      propertyPath: dirk
+      value: 
+      objectReference: {fileID: 792707657}
+    - target: {fileID: 2095741081992317002, guid: fecc7a7c8ff184edf8a410d3fe035ddb, type: 3}
+      propertyPath: iris
+      value: 
+      objectReference: {fileID: 1098033471}
+    - target: {fileID: 2095741081992317002, guid: fecc7a7c8ff184edf8a410d3fe035ddb, type: 3}
+      propertyPath: dirkData
+      value: 
+      objectReference: {fileID: 11400000, guid: 8ce19925349d7411da3be9a46a0d870e, type: 2}
+    - target: {fileID: 2095741081992317002, guid: fecc7a7c8ff184edf8a410d3fe035ddb, type: 3}
+      propertyPath: irisData
+      value: 
+      objectReference: {fileID: 11400000, guid: 4808172a67e5d49ffbb575250f37d00c, type: 2}
     - target: {fileID: 6945742917508906930, guid: fecc7a7c8ff184edf8a410d3fe035ddb, type: 3}
       propertyPath: m_LocalPosition.x
       value: 0

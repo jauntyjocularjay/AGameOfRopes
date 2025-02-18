@@ -12,13 +12,10 @@ public class Iris : Character
         data.specialMultiplier = 20;
         countsPerUpdate = 10;
     }
-    void FixedUpdate()
+  /*void FixedUpdate()
     {
-        // RegenerateWill(); // @stretch goal 
-    }
-    void Decide()
-    {
-    }
+        // RegenerateWill(); // @stretch goal
+    } */
     void RegenerateWill()
     {
         if(updateCounter < countsPerUpdate)
@@ -29,6 +26,25 @@ public class Iris : Character
         {
             updateCounter = 0;
             IncrementWill();
+        }
+    }
+    public void Decide()
+    {
+        int randomInt = Utils.NextInt(0,3);
+        switch (randomInt) {
+            case 0:
+                Attack();
+                break;
+            case 1:
+                Bind();
+                break;
+            case 2:
+                Guard();
+                break;
+            case 3:
+                Tease();
+                break;
+            default: throw new Exception("Util.NextInt(0,3) generated an invalid value");
         }
     }
     override public int Damage()
@@ -45,7 +61,20 @@ public class Iris : Character
     }
     override public void Attack()
     {
+        action = Action.Attack;
         target.IncrementWill(-data.damage);
     }
-
+    override public void Bind()
+    {
+        action = Action.Bind;
+        target.IncrementBind(data.bind);
+    }
+    override public void Guard()
+    {
+        action = Action.Guard;
+    }
+    override public void Tease()
+    {
+        action = Action.Tease;
+    }
 }

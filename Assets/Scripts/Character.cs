@@ -5,7 +5,8 @@ abstract public class Character : Prop
     public int specialMultiplier;
     public int updateCounter = 0;
     public int countsPerUpdate;
-    
+
+    public Action action;
     public CharacterData data;
     public Character target;
     public new void Start()
@@ -39,9 +40,9 @@ abstract public class Character : Prop
         data.bindings += i;
     }
     abstract public void Attack();
-    public void Bind(){}
-    public void Guard(){}
-    public void Tease(){}
+    abstract public void Bind();
+    abstract public void Guard();
+    abstract public void Tease();
     abstract public int Damage();
     abstract public int Struggle();
 }

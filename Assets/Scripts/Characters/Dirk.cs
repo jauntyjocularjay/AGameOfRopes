@@ -14,10 +14,10 @@ public class Dirk : Character
         countsPerUpdate = 7;
         updateCounter = 0;
     }
-    void FixedUpdate()
+    /*void FixedUpdate()
     {
-        RegenerateStamina();
-    }
+        // RegenerateStamina(); // @stretch
+    }*/
     void RegenerateStamina()
     {
         if(updateCounter < countsPerUpdate)
@@ -40,8 +40,23 @@ public class Dirk : Character
     }
     override public void Attack()
     {
+        action = Action.Attack;
         target.IncrementWill(-data.damage);
-        IncrementStamina(-4);
+    }
+    override public void Bind()
+    {
+        action = Action.Bind;
+        target.IncrementWill(-data.damage);
+    }
+    override public void Guard()
+    {
+        action = Action.Guard;
+        target.IncrementWill(-data.damage);
+    }
+    override public void Tease()
+    {
+        action = Action.Tease;
+        target.IncrementWill(-data.damage);
     }
     public int Stamina()
     {
@@ -55,4 +70,6 @@ public class Dirk : Character
     {
         stamina += i;
     }
+
 }
+
