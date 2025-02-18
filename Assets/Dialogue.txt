@@ -127,7 +127,7 @@ Iris: "Grrrrrr. THAT’S IT! We’re settling this once and for all."
 
 Dirk: "Iris, ple-"
 
-Iris: "I challenge you to a duel. First to be restrained has to listen
+Iris: "I challenge you to a duel. First to submit has to listen
 to the winner for the next quest."
 
 <<<<<<< HEAD
@@ -139,6 +139,7 @@ Dirk: "It’s on!"
 
 In-Battle Grievances
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -263,6 +264,34 @@ Dialogue
 =======
 =======
 =======
+=======
+1. Dirk uses words, Iris uses force
+“I’m surprised you haven’t tried to talk your way out of this. It seems to be the only thing you’re good at.”
+
+	Berate:
+	Respond: “I am quite good at it, and its gotten us out of a pickle on more 	than one occasion.”
+	Concede:
+
+2. Iris and Dirk use similar weaponry and always squabble over gear
+“I never get any of the good loot. Who ever heard of a bard using warrior gear? And what is that weapon anyway? An axe? An instrument? It’s ridiculous!”
+
+	Berate: “Mordred is a more reliable companion than you will ever be!”
+	“(snicker) You *named* it? That’s pathetic.”
+	Respond: “I assumed you wouldn’t want this small-time loot. Didn’t your 	parents buy you the best armor money could buy?”
+	Concede:
+
+3. Dirk gets in trouble with the Guard, Iris springs traps
+
+
+4. Dirk wants safety, Iris wants respect
+“You’re overly cautious. How are we ever going to get the respect of the townspeople if we’re always taking small jobs, or worse, giving up on big ones!”
+
+	Berate: “No one will respect us if we’re dead!”
+	Respond:
+	Concede:
+
+5. Iris believes Dirk only quests with her because a lich’s curse charmed him
+>>>>>>> b5213da (started some grievance dialogue)
 
 
 >>>>>>> a2f17ff (added Yaaaaayy's changes)
