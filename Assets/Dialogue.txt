@@ -111,31 +111,35 @@ Dirk: "Itï¿½s on!"
 =======
 Establishing Scene
 
-Iris: “You always do this!”
+Iris: "You always do this!"
 
-Dirk: “Do not!”
+Dirk: "Do not!"
 
-Iris: “You do! (in a mocking tone) ‘I’m team leader, I get the super cool bolas of binding’. I’M the one who slew the damn dragon. I should get first dibs.
+Iris: "You do! (in a mocking tone) 'I posted the quest, I get the super cool gear'. I’M the one who slew the damn dragon. I should get first dibs."
 
-Dirk: Yes, you killed the dragon. Which, I’ll remind you, *wasn’t* part of the plan.
+Dirk: "Yes, you killed the dragon. Which, I’ll remind you, *wasn’t* part of the plan."
 
-Iris: You and your plans. Why do they always seem to involve seducing something?
+Iris: "You and your plans. Why do they always seem to involve seducing something?"
 
-Dirk: Diplomacy is a very effective to-
+Dirk: "Diplomacy is a very effective to-"
 
-Iris: Grrrrrr. THAT’S IT! We’re settling this once and for all.
+Iris: "Grrrrrr. THAT’S IT! We’re settling this once and for all."
 
-Dirk: Iris, ple-
+Dirk: "Iris, ple-"
 
-Iris: I challenge you to a Domination Duel. Winner gets the bolas, AND is in charge of the next quest.
+Iris: "I challenge you to a duel. First to be restrained has to listen
+to the winner for the next quest."
 
-Dirk: It’s on!
-
+<<<<<<< HEAD
 >>>>>>> 83c3e7a (added first draft of dialogue)
+=======
+Dirk: "It’s on!"
+>>>>>>> cbfd0bb (added Yaaaaayy's changes)
 
 
 In-Battle Grievances
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -262,6 +266,10 @@ Dialogue
 
 
 >>>>>>> a2f17ff (added Yaaaaayy's changes)
+=======
+
+
+>>>>>>> cbfd0bb (added Yaaaaayy's changes)
 Victory
 
 Defeat
