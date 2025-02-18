@@ -1,6 +1,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 46ee835 (added first draft of dialogue)
 Establishing Scene 
@@ -107,10 +108,35 @@ Dirk: Itï¿½s on!
 =======
 Dirk: "Itï¿½s on!"
 >>>>>>> a2f17ff (added Yaaaaayy's changes)
+=======
+Establishing Scene
+
+Iris: “You always do this!”
+
+Dirk: “Do not!”
+
+Iris: “You do! (in a mocking tone) ‘I’m team leader, I get the super cool bolas of binding’. I’M the one who slew the damn dragon. I should get first dibs.
+
+Dirk: Yes, you killed the dragon. Which, I’ll remind you, *wasn’t* part of the plan.
+
+Iris: You and your plans. Why do they always seem to involve seducing something?
+
+Dirk: Diplomacy is a very effective to-
+
+Iris: Grrrrrr. THAT’S IT! We’re settling this once and for all.
+
+Dirk: Iris, ple-
+
+Iris: I challenge you to a Domination Duel. Winner gets the bolas, AND is in charge of the next quest.
+
+Dirk: It’s on!
+
+>>>>>>> 83c3e7a (added first draft of dialogue)
 
 
 In-Battle Grievances
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -241,3 +267,8 @@ Victory
 Defeat
 >>>>>>> 83c3e7a (added first draft of dialogue)
 >>>>>>> 46ee835 (added first draft of dialogue)
+=======
+Victory
+
+Defeat
+>>>>>>> 83c3e7a (added first draft of dialogue)
