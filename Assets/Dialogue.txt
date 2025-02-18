@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 Establishing Scene 
 
 // Display Side Profiles.png with forest Background
@@ -26,10 +27,35 @@ Dirk: "Itâ€™s on!"
 // End Side Profiles,
 // Display the battle animations for Dirk and Iris with forest Background.
 // BattleAnim1.0 - 4.4 for Iris and DirkBackBinding0 - 4 for Dirk
+=======
+Establishing Scene
+
+Iris: “You always do this!”
+
+Dirk: “Do not!”
+
+Iris: “You do! (in a mocking tone) ‘I’m team leader, I get the super cool bolas of binding’. I’M the one who slew the damn dragon. I should get first dibs.
+
+Dirk: Yes, you killed the dragon. Which, I’ll remind you, *wasn’t* part of the plan.
+
+Iris: You and your plans. Why do they always seem to involve seducing something?
+
+Dirk: Diplomacy is a very effective to-
+
+Iris: Grrrrrr. THAT’S IT! We’re settling this once and for all.
+
+Dirk: Iris, ple-
+
+Iris: I challenge you to a Domination Duel. Winner gets the bolas, AND is in charge of the next quest.
+
+Dirk: It’s on!
+
+>>>>>>> 83c3e7a (added first draft of dialogue)
 
 
 In-Battle Grievances
 
+<<<<<<< HEAD
 1. Dirk uses words, Iris uses force
 "Iâ€™m surprised you havenâ€™t tried to talk your way out of this. It seems to be the only thing youâ€™re good at."
 
@@ -87,3 +113,8 @@ Victory
 Defeat
 // Display GameLoseScene.png with the forest Background.
 Dialogue
+=======
+Victory
+
+Defeat
+>>>>>>> 83c3e7a (added first draft of dialogue)
