@@ -222,6 +222,17 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3603ea315ae604742969d0e8cd62e0d9, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!114 &1001595397 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 2095741081992317002, guid: fecc7a7c8ff184edf8a410d3fe035ddb, type: 3}
+  m_PrefabInstance: {fileID: 1512418618208628025}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6e945fcbd2697456db0ee8bd7235683f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!114 &1098033471 stripped
 MonoBehaviour:
   m_CorrespondingSourceObject: {fileID: 5174760968502554801, guid: 8f6ac0dfe9ba34faeaa108ab0c4697cf, type: 3}
@@ -378,7 +389,15 @@ PrefabInstance:
     - target: {fileID: 1432896429264452316, guid: 49e48b24be07c4a48b799a3e14742830, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
       value: 
-      objectReference: {fileID: 792707657}
+      objectReference: {fileID: 1001595397}
+    - target: {fileID: 1432896429264452316, guid: 49e48b24be07c4a48b799a3e14742830, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: Attack
+      objectReference: {fileID: 0}
+    - target: {fileID: 1432896429264452316, guid: 49e48b24be07c4a48b799a3e14742830, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_TargetAssemblyTypeName
+      value: GameManager, Assembly-CSharp
+      objectReference: {fileID: 0}
     - target: {fileID: 1988849718704359602, guid: 49e48b24be07c4a48b799a3e14742830, type: 3}
       propertyPath: m_Name
       value: UI
@@ -386,15 +405,39 @@ PrefabInstance:
     - target: {fileID: 2275168667655034348, guid: 49e48b24be07c4a48b799a3e14742830, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
       value: 
-      objectReference: {fileID: 792707657}
+      objectReference: {fileID: 1001595397}
+    - target: {fileID: 2275168667655034348, guid: 49e48b24be07c4a48b799a3e14742830, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: Tease
+      objectReference: {fileID: 0}
+    - target: {fileID: 2275168667655034348, guid: 49e48b24be07c4a48b799a3e14742830, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_TargetAssemblyTypeName
+      value: GameManager, Assembly-CSharp
+      objectReference: {fileID: 0}
     - target: {fileID: 2466767092751104052, guid: 49e48b24be07c4a48b799a3e14742830, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
       value: 
-      objectReference: {fileID: 792707657}
+      objectReference: {fileID: 1001595397}
+    - target: {fileID: 2466767092751104052, guid: 49e48b24be07c4a48b799a3e14742830, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: Bind
+      objectReference: {fileID: 0}
+    - target: {fileID: 2466767092751104052, guid: 49e48b24be07c4a48b799a3e14742830, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_TargetAssemblyTypeName
+      value: GameManager, Assembly-CSharp
+      objectReference: {fileID: 0}
     - target: {fileID: 2802741739824492117, guid: 49e48b24be07c4a48b799a3e14742830, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
       value: 
-      objectReference: {fileID: 792707657}
+      objectReference: {fileID: 1001595397}
+    - target: {fileID: 2802741739824492117, guid: 49e48b24be07c4a48b799a3e14742830, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: Guard
+      objectReference: {fileID: 0}
+    - target: {fileID: 2802741739824492117, guid: 49e48b24be07c4a48b799a3e14742830, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_TargetAssemblyTypeName
+      value: GameManager, Assembly-CSharp
+      objectReference: {fileID: 0}
     - target: {fileID: 4673650016735149079, guid: 49e48b24be07c4a48b799a3e14742830, type: 3}
       propertyPath: m_Pivot.x
       value: 0
