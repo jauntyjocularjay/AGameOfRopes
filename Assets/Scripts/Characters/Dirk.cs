@@ -38,10 +38,12 @@ public class Dirk : Character
     {
         return data.bind;
     }
-    override public void Attack()
+    override public void Attack(bool special = false)
     {
+        int multiplier = special ? specialMultiplier : 1;
+
         action = Action.Attack;
-        target.IncrementWill(-data.damage);
+        target.IncrementWill(-data.damage * multiplier);
     }
     override public void Bind()
     {

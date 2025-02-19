@@ -59,10 +59,10 @@ public class Iris : Character
     {
         return 2 * (data.maxWill - Will()) / data.maxWill;
     }
-    override public void Attack()
+    override public void Attack(bool special = false)
     {
-        action = Action.Attack;
-        target.IncrementWill(-data.damage);
+        int multiplier = special ? specialMultiplier : 1;
+        target.IncrementWill(-data.damage * multiplier);
     }
     override public void Bind()
     {

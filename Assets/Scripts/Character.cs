@@ -27,6 +27,10 @@ abstract public class Character : Prop
     {
         data.will += i;
     }
+    public void SetAction(Action a)
+    {
+        action = a;
+    }
     public int Bindings()
     {
         return data.bindings;
@@ -39,7 +43,7 @@ abstract public class Character : Prop
     {
         data.bindings += i;
     }
-    abstract public void Attack();
+    abstract public void Attack(bool special = false);
     abstract public void Bind();
     abstract public void Guard();
     abstract public void Tease();

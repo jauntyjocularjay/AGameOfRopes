@@ -24,35 +24,46 @@ public class GameManager : MonoBehaviour
         dirkWill = dirkData.will;
     }
 
-    public void Attack()
+    public void Setup()
     {
         turn++;
         iris.Decide();
+    }
+    public void Attack()
+    {
+        Setup();
         dirk.action = Action.Attack;
+        Resolve();
     }
     public void Bind()
     {
-        turn++;
-        iris.Decide();
+        Setup();
         dirk.action = Action.Bind;
+        Resolve();
     }
     public void Guard()
     {
-        turn++;
-        iris.Decide();
+        Setup();
         dirk.action = Action.Guard;
+        Resolve();
     }
     public void Tease()
     {
-        turn++;
-        iris.Decide();
+        Setup();
         dirk.action = Action.Tease;
+        Resolve();
     }
-
     public void Resolve()
     {
-        if(iris.action == Action.Attack && dirk.action == Action.Attack){}
-        else if(iris.action == Action.Guard && dirk.action == Action.Attack){}
+        if(iris.action == Action.Attack && dirk.action == Action.Attack)
+        {
+            iris.Attack();
+            dirk.Attack();
+        }
+        else if(iris.action == Action.Guard && dirk.action == Action.Attack)
+        {
+            iris.Attack(true);
+        }
         else if(iris.action == Action.Attack && dirk.action == Action.Guard){}
         else if(iris.action == Action.Guard && dirk.action == Action.Guard){}
         else if(iris.action == Action.Bind && dirk.action == Action.Attack){}
