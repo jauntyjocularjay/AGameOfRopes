@@ -10,13 +10,12 @@ public class Iris : Character
         data.damage = 20;
         data.bind = 20;
         data.specialMultiplier = 20;
-        countsPerUpdate = 10;
     }
   /*void FixedUpdate()
     {
         // RegenerateWill(); // @stretch goal
     } */
-    void RegenerateWill()
+  /*void RegenerateWill()
     {
         if(updateCounter < countsPerUpdate)
         {
@@ -27,7 +26,7 @@ public class Iris : Character
             updateCounter = 0;
             IncrementWill();
         }
-    }
+    }*/
     public void Decide()
     {
         int randomInt = Utils.NextInt(0,3);
@@ -61,7 +60,7 @@ public class Iris : Character
     }
     override public void Attack(bool special = false)
     {
-        int multiplier = special ? specialMultiplier : 1;
+        int multiplier = special ? data.specialMultiplier : 1;
         target.IncrementWill(-data.damage * multiplier);
     }
     override public void Bind()

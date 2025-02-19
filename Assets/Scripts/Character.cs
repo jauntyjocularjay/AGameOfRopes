@@ -2,9 +2,8 @@ using UnityEngine;
 
 abstract public class Character : Prop
 {
-    public int specialMultiplier;
-    public int updateCounter = 0;
-    public int countsPerUpdate;
+    int updateCounter = 0;
+    int countsPerUpdate;
 
     public Action action;
     public CharacterData data;

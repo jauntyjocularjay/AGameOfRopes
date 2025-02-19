@@ -11,14 +11,12 @@ public class Dirk : Character
         data.damage = 10;
         data.bind = 10;
         data.specialMultiplier = 15;
-        countsPerUpdate = 7;
-        updateCounter = 0;
     }
-    /*void FixedUpdate()
+  /*void FixedUpdate()
     {
         // RegenerateStamina(); // @stretch
     }*/
-    void RegenerateStamina()
+  /*void RegenerateStamina()
     {
         if(updateCounter < countsPerUpdate)
         {
@@ -29,7 +27,7 @@ public class Dirk : Character
             updateCounter = 0;
             IncrementWill();
         }
-    }
+    }*/
     override public int Damage()
     {
         return data.damage;
@@ -40,7 +38,7 @@ public class Dirk : Character
     }
     override public void Attack(bool special = false)
     {
-        int multiplier = special ? specialMultiplier : 1;
+        int multiplier = special ? data.specialMultiplier : 1;
 
         action = Action.Attack;
         target.IncrementWill(-data.damage * multiplier);
