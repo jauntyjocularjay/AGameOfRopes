@@ -2,10 +2,9 @@ using UnityEngine;
 
 abstract public class Character : Prop
 {
-    int updateCounter = 0;
-    int countsPerUpdate;
+    // int updateCounter = 0;
+    // int countsPerUpdate;
 
-    public Action action;
     public CharacterData data;
     public Character target;
     public new void Start()
@@ -28,7 +27,7 @@ abstract public class Character : Prop
     }
     public void SetAction(Action a)
     {
-        action = a;
+        data.action = a;
     }
     public int Bindings()
     {

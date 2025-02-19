@@ -7,7 +7,6 @@ public class Dirk : Character
     new void Start()
     {
         base.Start();
-        IncrementWill(120);
         data.damage = 10;
         data.bind = 10;
         data.specialMultiplier = 15;
@@ -38,25 +37,28 @@ public class Dirk : Character
     }
     override public void Attack(bool special = false)
     {
-        int multiplier = special ? data.specialMultiplier : 1;
+        Debug.Log("Dirk.Attack()");
+        // int multiplier = special ? data.specialMultiplier : 1;
 
-        action = Action.Attack;
-        target.IncrementWill(-data.damage * multiplier);
+        // data.action = Action.Attack;
+        // Debug.Log($"Dirk attacks to reduce will by {data.damage * multiplier}");
+        // target.IncrementWill(-data.damage * multiplier);
     }
     override public void Bind()
     {
-        action = Action.Bind;
-        target.IncrementWill(-data.damage);
+        Debug.Log("Dirk.Bind()");
     }
     override public void Guard()
     {
-        action = Action.Guard;
-        target.IncrementWill(-data.damage);
+        Debug.Log("Dirk.Guard()");
+        // data.action = Action.Guard;
+        // target.IncrementWill(-data.damage);
     }
     override public void Tease()
     {
-        action = Action.Tease;
-        target.IncrementWill(-data.damage);
+        Debug.Log("Dirk.Tease()");
+        // data.action = Action.Tease;
+        // target.IncrementWill(-data.damage);
     }
     public int Stamina()
     {
