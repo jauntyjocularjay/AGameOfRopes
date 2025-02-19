@@ -10,22 +10,6 @@ public class Iris : Character
         data.bind = 20;
         data.specialMultiplier = 2;
     }
-  /*void FixedUpdate()
-    {
-        // RegenerateWill(); // @stretch goal
-    } */
-  /*void RegenerateWill()
-    {
-        if(updateCounter < countsPerUpdate)
-        {
-            updateCounter++;
-        }
-        else
-        {
-            updateCounter = 0;
-            IncrementWill();
-        }
-    }*/
     public void Decide()
     {
         int randomInt = Utils.NextInt(0,3);

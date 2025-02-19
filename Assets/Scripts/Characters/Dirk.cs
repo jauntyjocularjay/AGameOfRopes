@@ -3,7 +3,6 @@ using UnityEngine;
 [ExecuteAlways]
 public class Dirk : Character
 {
-    int stamina = 120;
     new void Start()
     {
         base.Start();
@@ -11,22 +10,6 @@ public class Dirk : Character
         data.bind = 10;
         data.specialMultiplier = 15;
     }
-  /*void FixedUpdate()
-    {
-        // RegenerateStamina(); // @stretch
-    }*/
-  /*void RegenerateStamina()
-    {
-        if(updateCounter < countsPerUpdate)
-        {
-            updateCounter++;
-        }
-        else
-        {
-            updateCounter = 0;
-            IncrementWill();
-        }
-    }*/
     override public int Damage()
     {
         return data.damage;
@@ -60,18 +43,5 @@ public class Dirk : Character
         // data.action = Action.Tease;
         // target.IncrementWill(-data.damage);
     }
-    public int Stamina()
-    {
-        return stamina;
-    }
-    public void Stamina(int i)
-    {
-        stamina = i;
-    }
-    public void IncrementStamina(int i)
-    {
-        stamina += i;
-    }
-
 }
 
