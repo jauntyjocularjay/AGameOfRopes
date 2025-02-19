@@ -55,32 +55,49 @@ Dirk: "Itï¿½s on!"
 In-Battle Grievances
 
 1. Dirk uses words, Iris uses force
-“I’m surprised you haven’t tried to talk your way out of this. It seems to be the only thing you’re good at.”
+"I’m surprised you haven’t tried to talk your way out of this. It seems to be the only thing you’re good at."
 
-	Berate:
-	Respond: “I am quite good at it, and its gotten us out of a pickle on more 	than one occasion.”
-	Concede:
+	Berate: "I'm surprised you're talking at all, since fighting is all you know."
+
+	Respond: "I am quite good at it, and its gotten us out of a pickle on more than one occasion."
+
+	Concede: "I talk too much?...I'm sorry."
 
 2. Iris and Dirk use similar weaponry and always squabble over gear
-“I never get any of the good loot. Who ever heard of a bard using warrior gear? And what is that weapon anyway? An axe? An instrument? It’s ridiculous!”
+"I never get any of the good loot. Who ever heard of a bard using warrior gear? And what is that weapon anyway? An axe? An instrument? It’s ridiculous!"
 
-	Berate: “Mordred is a more reliable companion than you will ever be!”
-	“(snicker) You *named* it? That’s pathetic.”
-	Respond: “I assumed you wouldn’t want this small-time loot. Didn’t your 	parents buy you the best armor money could buy?”
-	Concede:
+	Berate: "Mordred is a more reliable companion than you will ever be!" (snicker) "You *named* it? That’s pathetic."
+
+	Respond: "I assumed you wouldn’t want this small-time loot. Didn’t your parents buy you the best armor money could buy?"
+
+	Concede: "I've been selfish. I'll be more thoughtful from now on."
 
 3. Dirk gets in trouble with the Guard, Iris springs traps
+"You're always getting me into trouble. The townsguard eyes ME with suspicion now because I'm seen with you."
 
+	Berate: "I put you in danger? Ha! If it wasn't for you charging ahead without looking, we wouldn't have spent an hour in the dragon's pitfall trap!"
+
+	Respond: "We each have our weaknesses, but we cover each other with our strengths. That's what makes us a good team."
+
+	Concede: "You're right. I'll try to restore goodwill with the guards."
 
 4. Dirk wants safety, Iris wants respect
-“You’re overly cautious. How are we ever going to get the respect of the townspeople if we’re always taking small jobs, or worse, giving up on big ones!”
+"You’re overly cautious. How are we ever going to get the respect of the townspeople if we’re always taking small jobs, or worse, giving up on big ones!"
 
-	Berate: “No one will respect us if we’re dead!”
-	Respond:
-	Concede:
+	Berate: "No one will respect us if we’re dead!"
+
+	Respond: "I care more about keeping you safe than the respect of the ones around me. Trust me, once we get more experience, we'll take on bigger, better quests." 
+
+	Concede: "I thought the dragon was pretty tough...I guess aiming higher wouldn't hurt."
 
 5. Iris believes Dirk only quests with her because a lich’s curse charmed him
+"Admit it! You can't stand being around me! The only reason you go on these quests with me is that you feel guilty for what happened with that Lich."
 
+	Berate: "This is ridiculous! I'm not even going to justify that with an answer."
+
+	Respond: "No, of course not. Yes, I feel responsible for what happened, but I travel with you because you're a strong and capable person. I want you by my side, Iris."
+
+	Concede: "No...I...I'm sorry I didn't tell you sooner. The priest never fully removed the Lich's curse. I'm still charmed."
 
 Victory
 
