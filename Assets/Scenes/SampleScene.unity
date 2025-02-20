@@ -222,6 +222,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3603ea315ae604742969d0e8cd62e0d9, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+<<<<<<< HEAD
 --- !u!114 &1001595397 stripped
 MonoBehaviour:
   m_CorrespondingSourceObject: {fileID: 2095741081992317002, guid: fecc7a7c8ff184edf8a410d3fe035ddb, type: 3}
@@ -244,6 +245,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a768f841bdce14330bad4419cb5b25ad, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+=======
+>>>>>>> 2d132ad (tried to add sound effects to the Unity Scene)
   specialMultiplier: 0
   data: {fileID: 0}
   target: {fileID: 1098033471}
