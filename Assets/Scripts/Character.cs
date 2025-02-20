@@ -1,26 +1,70 @@
 using UnityEngine;
 
-public class Character : MonoBehaviour
+abstract public class Character : Prop
 {
-    int will = 12;
-    int bind = 12;
-
-    void Start()
+    public CharacterData data;
+    public Character target;
+    public new void Start()
     {
-
+        base.Start();
+        data.will = data.maxWill;
+        data.bindings = 0;
     }
-
-    // Update is called once per frame
-    void Update()
+    public int Will()
     {
-        
+        return data.will;
     }
-    public void IncrementWill(int i)
+    public void Will(int i)
     {
-        will += i;
+        data.will = i;
+    }
+    public void IncrementWill(int i = 1)
+    {
+        data.will += i;
+    }
+    public void SetAction(Action a)
+    {
+        data.action = a;
+    }
+    public int Bindings()
+    {
+        return data.bindings;
+    }
+    public void Bindings(int i)
+    {
+        data.bindings = i;
     }
     public void IncrementBind(int i)
     {
-        bind += i;
+        data.bindings += i;
     }
+    public void Attack(bool special = false)
+    {
+        Debug.Log($"{data.alias}.Attack()");
+        target.IncrementWill(-data.damage * (special ? data.specialMultiplier : 1));
+    }
+    public void Bind()
+    {
+        Debug.Log($"{data.alias}.Bind()");
+        target.IncrementBind(data.Bind());
+    }
+    public void Guard(bool reposte = false)
+    {
+        Debug.Log($"{data.alias}.Guard()");
+        if(reposte)
+        {
+            Attack(true);
+        }
+    }
+    public void Struggle()
+    {
+        Debug.Log($"{data.alias}.Struggle()");
+        target.IncrementWill(-data.specialMultiplier * (data.maxWill - Will()) / data.maxWill);
+    }
+    public void Tease()
+    {
+        Debug.Log($"{data.alias}.Tease()");
+        IncrementWill(data.damage & data.specialMultiplier);
+    }
+    abstract public int Damage();
 }
