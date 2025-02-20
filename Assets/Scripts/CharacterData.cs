@@ -8,7 +8,9 @@ public class CharacterData : ScriptableObject
     public int maxWill = 120;
     public int will;
     public int maxBindings = 120;
-    public int bindings;
+    public AudioSource a_Attack;
+    public AudioSource a_Guard;
+    public AudioSource a_Struggle;
     public int damage;
     public int bind;
     public int specialMultiplier;
