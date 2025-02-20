@@ -12,10 +12,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b2a79ef1748d445b6904d567ffa982d9, type: 3}
   m_Name: DataDirk
   m_EditorClassIdentifier: 
+  alias: 
+  action: 3
   maxWill: 120
-  will: 120
-  damage: 1
+  will: 60
   maxBindings: 120
-  bindings: 0
-  bind: 1
-  specialMultiplier: 2
+  bindings: 70
+  damage: 10
+  bind: 10
+  specialMultiplier: 15
