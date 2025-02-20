@@ -2,9 +2,6 @@ using UnityEngine;
 
 abstract public class Character : Prop
 {
-    // int updateCounter = 0;
-    // int countsPerUpdate;
-
     public CharacterData data;
     public Character target;
     public new void Start()
@@ -41,10 +38,33 @@ abstract public class Character : Prop
     {
         data.bindings += i;
     }
-    abstract public void Attack(bool special = false);
-    abstract public void Bind();
-    abstract public void Guard();
-    abstract public void Tease();
+    public void Attack(bool special = false)
+    {
+        Debug.Log($"{data.alias}.Attack()");
+        target.IncrementWill(-data.damage * (special ? data.specialMultiplier : 1));
+    }
+    public void Bind()
+    {
+        Debug.Log($"{data.alias}.Bind()");
+        target.IncrementBind(data.Bind());
+    }
+    public void Guard(bool reposte = false)
+    {
+        Debug.Log($"{data.alias}.Guard()");
+        if(reposte)
+        {
+            Attack(true);
+        }
+    }
+    public void Struggle()
+    {
+        Debug.Log($"{data.alias}.Struggle()");
+        target.IncrementWill(-data.specialMultiplier * (data.maxWill - Will()) / data.maxWill);
+    }
+    public void Tease()
+    {
+        Debug.Log($"{data.alias}.Tease()");
+        IncrementWill(data.damage & data.specialMultiplier);
+    }
     abstract public int Damage();
-    abstract public int Struggle();
 }

@@ -9,56 +9,32 @@ public class Iris : Character
         data.damage = 20;
         data.bind = 20;
         data.specialMultiplier = 2;
+        data.action = Decide();
     }
-    public void Decide()
+    public Action Decide()
     {
-        int randomInt = Utils.NextInt(0,3);
+        int a = Bindings() > 60 
+            ? 1 : 0;
+        int b = Bindings() > 60 
+            ? 2 : 3;
+
+        int randomInt = Utils.NextInt(a,b);
         switch (randomInt) {
             case 0:
-                data.action = Action.Attack;
-                break;
+                return Action.Attack;
             case 1:
-                data.action = Action.Bind;
-                break;
+                return Action.Bind;
             case 2:
-                data.action = Action.Guard;
-                break;
-            case 3:
-                data.action = Action.Tease;
-                break;
-            default: throw new Exception("Util.NextInt(0,3) generated an invalid value");
+                return Action.Guard;
+            case 3:                
+                Action action = Bindings() > Will() 
+                    ? Action.Struggle : Action.Tease;
+                return action;
+            default: throw new Exception($"Util.NextInt({a},{b}) generated an invalid value");
         }
     }
     override public int Damage()
     {
         return 2 * (Bindings() - data.maxBindings) / data.maxBindings;
-    }
-    override public int Struggle()
-    {
-        return 2 * (data.maxWill - Will()) / data.maxWill;
-    }
-    override public void Attack(bool special = false)
-    {
-        Debug.Log("Iris.Attack()");
-        // int multiplier = special ? data.specialMultiplier : 1;
-        // target.IncrementWill(-data.damage * multiplier);
-    }
-    override public void Bind()
-    {
-        Debug.Log("Iris.Bind()");
-        // target.IncrementBind(data.bind);
-    }
-    override public void Guard()
-    {
-        Debug.Log("Iris.Guard()");
-        if(target.data.action == Action.Attack)
-        {
-            // Attack(true);
-        }
-    }
-    override public void Tease()
-    {
-        Debug.Log("Iris.Tease()");
-        // data.action = Action.Tease;
     }
 }
