@@ -17,7 +17,7 @@ Iris: "Grrrrrr. THAT’S IT! We’re settling this once and for all."
 Dirk: "Iris, ple-"
 
 Iris: "I challenge you to a duel. First to submit has to listen
-to the winner for the next quest."
+to the winner until the next quest."
 
 Dirk: "It’s on!"
 
@@ -38,12 +38,12 @@ In-Battle Grievances
 
 	Berate: "Mordred is a more reliable companion than you will ever be!" (snicker) "You *named* it? That’s pathetic."
 
-	Respond: "I assumed you wouldn’t want this small-time loot. Didn’t your parents buy you the best armor money could buy?"
+	Respond: "I assumed you wouldn’t want this small-time loot. Didn’t your parents give you the best armor money could buy?"
 
 	Concede: "I've been selfish. I'll be more thoughtful from now on."
 
 3. Dirk gets in trouble with the Guard, Iris springs traps
-"You're always getting me into trouble. The townsguard eyes ME with suspicion now because I'm seen with you."
+"You're always getting me into trouble. The townsguard now eyes ME with suspicion because I'm seen with you."
 
 	Berate: "I put you in danger? Ha! If it wasn't for you charging ahead without looking, we wouldn't have spent an hour in the dragon's pitfall trap!"
 
@@ -69,6 +69,23 @@ In-Battle Grievances
 
 	Concede: "No...I...I'm sorry I didn't tell you sooner. The priest never fully removed the Lich's curse. I'm still charmed."
 
+
+Tease Lines
+
+“Getting tired yet?”
+
+“I think I’ll write a song about my victory.”
+
+“You’re fighting like you *want* to lose.”
+
+
+
 Victory
 
+Iris: *sigh* “...you win.”
+
+
+
 Defeat
+
+Dirk: *groan* “...you win.”
