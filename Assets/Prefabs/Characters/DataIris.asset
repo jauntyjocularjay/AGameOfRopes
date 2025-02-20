@@ -12,10 +12,15 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b2a79ef1748d445b6904d567ffa982d9, type: 3}
   m_Name: DataIris
   m_EditorClassIdentifier: 
+  alias: Iris
+  action: 0
   maxWill: 120
   will: 120
-  damage: 2
   maxBindings: 120
   bindings: 0
+  a_Attack: {fileID: 0}
+  a_Guard: {fileID: 0}
+  a_Struggle: {fileID: 0}
+  damage: 2
   bind: 2
   specialMultiplier: 3
