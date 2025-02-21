@@ -955,11 +955,19 @@ PrefabInstance:
       objectReference: {fileID: 4344931944296769982, guid: eeba0f80de7584e5c9cc75b5edf86282, type: 3}
     - target: {fileID: 4451470663406724442, guid: 41639181789644c34a82bcd8244d63bb, type: 3}
       propertyPath: m_Size.x
+<<<<<<< HEAD:Assets/Scenes/1-Gameplay.unity
       value: 9.57
       objectReference: {fileID: 0}
     - target: {fileID: 4451470663406724442, guid: 41639181789644c34a82bcd8244d63bb, type: 3}
       propertyPath: m_Size.y
       value: 13.42
+=======
+      value: 7.4765625
+      objectReference: {fileID: 0}
+    - target: {fileID: 4451470663406724442, guid: 41639181789644c34a82bcd8244d63bb, type: 3}
+      propertyPath: m_Size.y
+      value: 10.484375
+>>>>>>> dev:Assets/Scenes/2-Gameplay.unity
       objectReference: {fileID: 0}
     - target: {fileID: 4451470663406724442, guid: 41639181789644c34a82bcd8244d63bb, type: 3}
       propertyPath: m_Sprite
@@ -975,11 +983,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8034654791414292907, guid: 41639181789644c34a82bcd8244d63bb, type: 3}
       propertyPath: m_LocalScale.x
-      value: 1
+      value: 0.8
       objectReference: {fileID: 0}
     - target: {fileID: 8034654791414292907, guid: 41639181789644c34a82bcd8244d63bb, type: 3}
       propertyPath: m_LocalScale.y
-      value: 1
+      value: 0.8
       objectReference: {fileID: 0}
     - target: {fileID: 8034654791414292907, guid: 41639181789644c34a82bcd8244d63bb, type: 3}
       propertyPath: m_LocalPosition.x
