@@ -11,6 +11,7 @@ GameObject:
   - component: {fileID: 8034654791414292907}
   - component: {fileID: 4451470663406724442}
   - component: {fileID: 3285447682829882275}
+  - component: {fileID: 120843137392574224}
   m_Layer: 0
   m_Name: Dirk
   m_TagString: Untagged
@@ -100,8 +101,32 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3603ea315ae604742969d0e8cd62e0d9, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  specialMultiplier: 0
-  updateCounter: 0
-  countsPerUpdate: 0
   data: {fileID: 11400000, guid: 8ce19925349d7411da3be9a46a0d870e, type: 2}
   target: {fileID: 0}
+  dirkbound0: {fileID: 0}
+  dirkbound1: {fileID: 0}
+  dirkbound2: {fileID: 0}
+  dirkbound3: {fileID: 0}
+  dirkbound4: {fileID: 0}
+--- !u!95 &120843137392574224
+Animator:
+  serializedVersion: 7
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8704140373492797350}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 0}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_StabilizeFeet: 0
+  m_AnimatePhysics: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorStateOnDisable: 0
+  m_WriteDefaultValuesOnDisable: 0

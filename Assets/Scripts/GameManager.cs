@@ -1,10 +1,11 @@
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
-[ExecuteAlways]
 public class GameManager : MonoBehaviour
 {
     public int willThreshold = 40;
     public int turn = 0;
+
     [Header("Iris")]
     public Iris iris;
     public CharacterData irisData;
@@ -27,8 +28,12 @@ public class GameManager : MonoBehaviour
         dirkAction = dirk.data.action;
         dirkBindings = dirk.data.bindings;
         dirkWill = dirk.data.will;
-    }
 
+        if(dirkWill <= 0 || irisWill <= 0 || dirkBindings >= 120 || irisBindings >= 120)
+        {
+            LoadNextScene();
+        }
+    }
     public void Attack()
     {
         turn++;
@@ -159,11 +164,15 @@ public class GameManager : MonoBehaviour
         if(iris.data.action == Action.Guard) iris.tells.Guard();
         
     }
-
     Action DirkTeaseOrStruggle()
     {
         return dirk.Bindings() > 60
             ? Action.Struggle
             : Action.Tease;
+    }
+    void LoadNextScene()
+    {
+        int levelIndex = SceneManager.GetActiveScene().buildIndex + 1;
+        SceneManager.LoadScene(levelIndex);
     }
 }

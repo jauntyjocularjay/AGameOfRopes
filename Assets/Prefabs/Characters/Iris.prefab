@@ -114,6 +114,7 @@ GameObject:
   - component: {fileID: 2370604509527342481}
   - component: {fileID: 2419379150441140366}
   - component: {fileID: 5174760968502554801}
+  - component: {fileID: 3917170235570628046}
   m_Layer: 0
   m_Name: Iris
   m_TagString: Untagged
@@ -189,7 +190,7 @@ SpriteRenderer:
   m_Size: {x: 6.06, y: 8.06}
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
-  m_WasSpriteAssigned: 1
+  m_WasSpriteAssigned: 0
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
 --- !u!114 &5174760968502554801
@@ -206,3 +207,26 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   data: {fileID: 11400000, guid: 4808172a67e5d49ffbb575250f37d00c, type: 2}
   target: {fileID: 0}
+  tells: {fileID: 0}
+--- !u!95 &3917170235570628046
+Animator:
+  serializedVersion: 7
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 9084419781547813442}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 0}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_StabilizeFeet: 0
+  m_AnimatePhysics: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorStateOnDisable: 0
+  m_WriteDefaultValuesOnDisable: 0
