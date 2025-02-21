@@ -27,7 +27,7 @@ Transform:
   m_GameObject: {fileID: 6264679379933157541}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalPosition: {x: 0, y: 5.5, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -76,7 +76,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 0
+  m_SortingOrder: 60
   m_Sprite: {fileID: 0}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
@@ -100,9 +100,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 54b755b67e65c4fe19d249b566f96a1a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  attack: {fileID: 515015657902943959, guid: 3fdb68d90ad1a4373983569545894033, type: 3}
-  bind: {fileID: -502535060332135143, guid: f1121691e8eba49a9991ca837d436358, type: 3}
-  guard: {fileID: -367909721372436539, guid: 2f59399cf9bf1431092b9bd8efcc855a, type: 3}
+  attack: {fileID: 515015657902943959, guid: 6e0555a6e2d5e4104beab8981390e7f9, type: 3}
+  bind: {fileID: -502535060332135143, guid: 8004aba1b9e1a4043850ba8f5c7902b4, type: 3}
+  guard: {fileID: -367909721372436539, guid: eaf2e33994a8e47289e7cdba53339885, type: 3}
 --- !u!1 &9084419781547813442
 GameObject:
   m_ObjectHideFlags: 0
@@ -114,6 +114,7 @@ GameObject:
   - component: {fileID: 2370604509527342481}
   - component: {fileID: 2419379150441140366}
   - component: {fileID: 5174760968502554801}
+  - component: {fileID: 7376982455357218822}
   m_Layer: 0
   m_Name: Iris
   m_TagString: Untagged
@@ -181,12 +182,12 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 49
-  m_Sprite: {fileID: 21300000, guid: 5f52f9fbf35f7455bb5a40c0232b8d94, type: 3}
+  m_Sprite: {fileID: -7564565323912065226, guid: a2ab664b193b84be9bf5f901aaf2fca8, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
   m_DrawMode: 0
-  m_Size: {x: 6.06, y: 8.06}
+  m_Size: {x: 6.02, y: 8.01}
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
@@ -206,3 +207,26 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   data: {fileID: 11400000, guid: 4808172a67e5d49ffbb575250f37d00c, type: 2}
   target: {fileID: 0}
+  tells: {fileID: 2886889674395228821}
+--- !u!95 &7376982455357218822
+Animator:
+  serializedVersion: 7
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 9084419781547813442}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: e6e7642982627400facb307a6456546b, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_StabilizeFeet: 0
+  m_AnimatePhysics: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorStateOnDisable: 0
+  m_WriteDefaultValuesOnDisable: 0
