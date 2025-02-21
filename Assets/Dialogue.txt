@@ -70,22 +70,29 @@ In-Battle Grievances
 	Concede: "No...I...I'm sorry I didn't tell you sooner. The priest never fully removed the Lich's curse. I'm still charmed."
 
 
-Tease Lines
+Tease Lines - Dirk
 
-“Getting tired yet?”
+"Getting tired yet?"
 
-“I think I’ll write a song about my victory.”
+"I think I’ll write a song about my victory."
 
-“You’re fighting like you *want* to lose.”
+"You’re fighting like you *want* to lose."
 
+Tease Lines - Iris
+
+"Oh nooo~, a stringed instrument. I'm sooo scared."
+
+"When I win, we need to talk about changing your outfit. I have so many ideas!"
+
+"I wonder which part of me you'll enjoy serving the most..."
 
 
 Victory
 
-Iris: *sigh* “...you win.”
+Iris: *sigh* "...you win."
 
 
 
 Defeat
 
-Dirk: *groan* “...you win.”
+Dirk: *groan* "...you win."
