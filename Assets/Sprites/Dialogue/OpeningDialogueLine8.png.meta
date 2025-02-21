@@ -1,19 +1,10 @@
 fileFormatVersion: 2
-<<<<<<<< HEAD:Assets/Sprites/dirk/DirkIdle.png.meta
-guid: c7713c7ac802d4af295980a5293ad600
+guid: 127252e88300d4e109d29adb378ea0f5
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: 5798237251568842654
-    second: DirkIdle_0
-========
-guid: 4e21fd117206146b6a713cc8506c903b
-TextureImporter:
-  internalIDToNameTable:
-  - first:
-      213: -7687112494489304000
-    second: OpeningDialogueLine2_0
->>>>>>>> dev:Assets/Sprites/Dialogue/OpeningDialogueLine2.png.meta
+      213: -7715285452213912372
+    second: OpeningDialogueLine8_0
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -55,12 +46,12 @@ TextureImporter:
   nPOTScale: 0
   lightmap: 0
   compressionQuality: 50
-  spriteMode: 1
+  spriteMode: 2
   spriteExtrude: 1
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spritePixelsToUnits: 128
+  spritePixelsToUnits: 100
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
@@ -122,23 +113,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-<<<<<<<< HEAD:Assets/Sprites/dirk/DirkIdle.png.meta
-      name: DirkIdle_0
-      rect:
-        serializedVersion: 2
-        x: 551
-        y: 209
-        width: 805
-        height: 1604
-========
-      name: OpeningDialogueLine2_0
+      name: OpeningDialogueLine8_0
       rect:
         serializedVersion: 2
         x: 12
         y: 11
         width: 1971
         height: 499
->>>>>>>> dev:Assets/Sprites/Dialogue/OpeningDialogueLine2.png.meta
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -147,13 +128,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-<<<<<<<< HEAD:Assets/Sprites/dirk/DirkIdle.png.meta
-      spriteID: e97b2375f0a777050800000000000000
-      internalID: 5798237251568842654
-========
-      spriteID: 0448f711ae3e15590800000000000000
-      internalID: -7687112494489304000
->>>>>>>> dev:Assets/Sprites/Dialogue/OpeningDialogueLine2.png.meta
+      spriteID: cccfc0032cccde490800000000000000
+      internalID: -7715285452213912372
       vertices: []
       indices: 
       edges: []
@@ -162,7 +138,7 @@ TextureImporter:
     customData: 
     physicsShape: []
     bones: []
-    spriteID: 5e97eb03825dee720800000000000000
+    spriteID: 
     internalID: 0
     vertices: []
     indices: 
@@ -171,12 +147,7 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-<<<<<<<< HEAD:Assets/Sprites/dirk/DirkIdle.png.meta
-    nameFileIdTable:
-      DirkIdle_0: 5798237251568842654
-========
     nameFileIdTable: {}
->>>>>>>> dev:Assets/Sprites/Dialogue/OpeningDialogueLine2.png.meta
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

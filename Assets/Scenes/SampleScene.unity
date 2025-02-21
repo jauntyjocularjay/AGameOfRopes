@@ -474,6 +474,30 @@ PrefabInstance:
       propertyPath: bindingsThreshold
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 2095741081992317002, guid: fecc7a7c8ff184edf8a410d3fe035ddb, type: 3}
+      propertyPath: irisWill
+      value: 70
+      objectReference: {fileID: 0}
+    - target: {fileID: 2095741081992317002, guid: fecc7a7c8ff184edf8a410d3fe035ddb, type: 3}
+      propertyPath: dirkAction
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 2095741081992317002, guid: fecc7a7c8ff184edf8a410d3fe035ddb, type: 3}
+      propertyPath: irisAction
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 2095741081992317002, guid: fecc7a7c8ff184edf8a410d3fe035ddb, type: 3}
+      propertyPath: irisBindings
+      value: 30
+      objectReference: {fileID: 0}
+    - target: {fileID: 2095741081992317002, guid: fecc7a7c8ff184edf8a410d3fe035ddb, type: 3}
+      propertyPath: willThreshold
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2095741081992317002, guid: fecc7a7c8ff184edf8a410d3fe035ddb, type: 3}
+      propertyPath: bindingsThreshold
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 6945742917508906930, guid: fecc7a7c8ff184edf8a410d3fe035ddb, type: 3}
       propertyPath: m_LocalPosition.x
       value: 0
@@ -533,6 +557,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 2370604509527342481, guid: 8f6ac0dfe9ba34faeaa108ab0c4697cf, type: 3}
       propertyPath: m_LocalPosition.y
+      value: -2.5
       value: -2.5
       objectReference: {fileID: 0}
     - target: {fileID: 2370604509527342481, guid: 8f6ac0dfe9ba34faeaa108ab0c4697cf, type: 3}
@@ -1878,6 +1903,10 @@ Transform:
     - targetCorrespondingSourceObject: {fileID: 3318113841124545991, guid: 49e48b24be07c4a48b799a3e14742830, type: 3}
       insertIndex: -1
       addedObject: {fileID: 1677814879}
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 3318113841124545991, guid: 49e48b24be07c4a48b799a3e14742830, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1677814879}
   m_SourcePrefab: {fileID: 100100000, guid: 49e48b24be07c4a48b799a3e14742830, type: 3}
 --- !u!1001 &5521099434489836705
 PrefabInstance:
@@ -1957,14 +1986,17 @@ PrefabInstance:
     - target: {fileID: 4451470663406724442, guid: 41639181789644c34a82bcd8244d63bb, type: 3}
       propertyPath: m_Size.x
       value: 125
+      value: 125
       objectReference: {fileID: 0}
     - target: {fileID: 4451470663406724442, guid: 41639181789644c34a82bcd8244d63bb, type: 3}
       propertyPath: m_Size.y
+      value: 125
       value: 125
       objectReference: {fileID: 0}
     - target: {fileID: 4451470663406724442, guid: 41639181789644c34a82bcd8244d63bb, type: 3}
       propertyPath: m_Sprite
       value: 
+      objectReference: {fileID: 21300000, guid: 909394afbe24e4469b0e987b8623b5de, type: 3}
       objectReference: {fileID: 21300000, guid: 909394afbe24e4469b0e987b8623b5de, type: 3}
     - target: {fileID: 4451470663406724442, guid: 41639181789644c34a82bcd8244d63bb, type: 3}
       propertyPath: m_SortingOrder
@@ -1977,17 +2009,21 @@ PrefabInstance:
     - target: {fileID: 8034654791414292907, guid: 41639181789644c34a82bcd8244d63bb, type: 3}
       propertyPath: m_LocalScale.x
       value: 1
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 8034654791414292907, guid: 41639181789644c34a82bcd8244d63bb, type: 3}
       propertyPath: m_LocalScale.y
+      value: 1
       value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 8034654791414292907, guid: 41639181789644c34a82bcd8244d63bb, type: 3}
       propertyPath: m_LocalPosition.x
       value: -0.5
+      value: -0.5
       objectReference: {fileID: 0}
     - target: {fileID: 8034654791414292907, guid: 41639181789644c34a82bcd8244d63bb, type: 3}
       propertyPath: m_LocalPosition.y
+      value: -0.5
       value: -0.5
       objectReference: {fileID: 0}
     - target: {fileID: 8034654791414292907, guid: 41639181789644c34a82bcd8244d63bb, type: 3}

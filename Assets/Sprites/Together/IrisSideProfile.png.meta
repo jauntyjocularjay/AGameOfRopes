@@ -1,10 +1,19 @@
 fileFormatVersion: 2
+<<<<<<<< HEAD:Assets/Sprites/Together/IrisSideProfile.png.meta
 guid: 9372b113e328a464b98ad4c56d82686d
 TextureImporter:
   internalIDToNameTable:
   - first:
       213: -6849765055680164825
     second: IrisSideProfile_0
+========
+guid: 9ca11729052e2409991cc67066d8101a
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 6025315744743284418
+    second: OpeningDialogueLine1_0
+>>>>>>>> dev:Assets/Sprites/Dialogue/OpeningDialogueLine1.png.meta
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -113,6 +122,7 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
+<<<<<<<< HEAD:Assets/Sprites/Together/IrisSideProfile.png.meta
       name: IrisSideProfile_0
       rect:
         serializedVersion: 2
@@ -120,6 +130,15 @@ TextureImporter:
         y: 0
         width: 810
         height: 954
+========
+      name: OpeningDialogueLine1_0
+      rect:
+        serializedVersion: 2
+        x: 12
+        y: 11
+        width: 1971
+        height: 499
+>>>>>>>> dev:Assets/Sprites/Dialogue/OpeningDialogueLine1.png.meta
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -128,8 +147,13 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
+<<<<<<<< HEAD:Assets/Sprites/Together/IrisSideProfile.png.meta
       spriteID: 72ccc4539feb0f0a0800000000000000
       internalID: -6849765055680164825
+========
+      spriteID: 2ceddf01fb83e9350800000000000000
+      internalID: 6025315744743284418
+>>>>>>>> dev:Assets/Sprites/Dialogue/OpeningDialogueLine1.png.meta
       vertices: []
       indices: 
       edges: []
@@ -147,8 +171,12 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
+<<<<<<<< HEAD:Assets/Sprites/Together/IrisSideProfile.png.meta
     nameFileIdTable:
       IrisSideProfile_0: -6849765055680164825
+========
+    nameFileIdTable: {}
+>>>>>>>> dev:Assets/Sprites/Dialogue/OpeningDialogueLine1.png.meta
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
