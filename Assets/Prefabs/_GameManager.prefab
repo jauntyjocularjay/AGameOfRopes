@@ -143,17 +143,16 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6e945fcbd2697456db0ee8bd7235683f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  willThreshold: 40
+  willThreshold: 0
   turn: 0
-  transition: {fileID: 483926749078387128}
   iris: {fileID: 0}
   irisData: {fileID: 11400000, guid: 4808172a67e5d49ffbb575250f37d00c, type: 2}
-  irisAction: 0
-  irisBindings: 0
-  irisWill: 120
+  irisAction: 2
+  irisBindings: 30
+  irisWill: 70
   dirk: {fileID: 0}
   dirkData: {fileID: 11400000, guid: 8ce19925349d7411da3be9a46a0d870e, type: 2}
-  dirkAction: 0
+  dirkAction: 3
   dirkBindings: 0
   dirkWill: 120
 --- !u!1 &4435127968259553685
