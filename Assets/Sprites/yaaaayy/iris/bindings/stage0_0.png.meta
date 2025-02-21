@@ -1,10 +1,10 @@
 fileFormatVersion: 2
-guid: 2305478d3ed674d1188b0b5a3e5baf5d
+guid: 1fa9b05db89d641b283e290e13ad6d74
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: 4618815459838230104
-    second: ChaordicWallpaper04_0
+      213: -5237784804600997750
+    second: BattleAnim1.1_0
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -46,12 +46,12 @@ TextureImporter:
   nPOTScale: 0
   lightmap: 0
   compressionQuality: 50
-  spriteMode: 2
+  spriteMode: 1
   spriteExtrude: 1
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spritePixelsToUnits: 100
+  spritePixelsToUnits: 128
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
@@ -113,13 +113,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: ChaordicWallpaper04_0
+      name: BattleAnim1.1_0
       rect:
         serializedVersion: 2
-        x: 0
-        y: 0
-        width: 1920
-        height: 1080
+        x: 505
+        y: 246
+        width: 1089
+        height: 1450
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -128,8 +128,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 85e7dbe6034591040800000000000000
-      internalID: 4618815459838230104
+      spriteID: a8891df9876af47b0800000000000000
+      internalID: -5237784804600997750
       vertices: []
       indices: 
       edges: []
@@ -138,7 +138,7 @@ TextureImporter:
     customData: 
     physicsShape: []
     bones: []
-    spriteID: 
+    spriteID: 5e97eb03825dee720800000000000000
     internalID: 0
     vertices: []
     indices: 
@@ -148,7 +148,7 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      ChaordicWallpaper04_0: 4618815459838230104
+      BattleAnim1.1_0: -5237784804600997750
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
