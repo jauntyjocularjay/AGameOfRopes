@@ -41,12 +41,12 @@ abstract public class Character : Prop
     public void Attack(bool special = false)
     {
         Debug.Log($"{data.alias}.Attack()");
-        target.IncrementWill(-data.damage * (special ? data.specialMultiplier : 1));
+        target.IncrementWill(-Damage());
     }
     public void Bind()
     {
         Debug.Log($"{data.alias}.Bind()");
-        target.IncrementBind(data.Bind());
+        target.IncrementBind(data.bind);
     }
     public void Guard(bool reposte = false)
     {
@@ -66,5 +66,8 @@ abstract public class Character : Prop
         Debug.Log($"{data.alias}.Tease()");
         IncrementWill(data.damage & data.specialMultiplier);
     }
-    abstract public int Damage();
+    public int Damage()
+    {
+        return -data.damage * (Bindings() - data.maxBindings) / data.maxBindings;
+    }
 }

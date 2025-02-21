@@ -147,7 +147,8 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      ChaordicWallpaper02_0: 4499110436120113278
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

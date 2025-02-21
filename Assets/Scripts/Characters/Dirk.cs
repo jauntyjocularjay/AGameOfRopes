@@ -8,11 +8,7 @@ public class Dirk : Character
         base.Start();
         data.damage = 10;
         data.bind = 10;
-        data.specialMultiplier = 15;
-    }
-    override public int Damage()
-    {
-        return data.damage;
+        data.specialMultiplier = 2;
     }
 }
 

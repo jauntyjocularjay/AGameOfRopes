@@ -3,6 +3,7 @@ using UnityEngine;
 [ExecuteAlways]
 public class GameManager : MonoBehaviour
 {
+    public int willThreshold = 40;
     public int turn = 0;
     [Header("Iris")]
     public Iris iris;
@@ -16,8 +17,16 @@ public class GameManager : MonoBehaviour
     public Action dirkAction;
     public int dirkBindings;
     public int dirkWill;
-    public int willThreshold = 40;
-    public int bindingsThreshold = 40;
+    void Update()
+    {
+        irisAction = iris.data.action;
+        irisBindings = iris.data.bindings;
+        irisWill = iris.data.will;
+
+        dirkAction = dirk.data.action;
+        dirkBindings = dirk.data.bindings;
+        dirkWill = dirk.data.will;
+    }
 
     public void Attack()
     {
@@ -54,7 +63,7 @@ public class GameManager : MonoBehaviour
             iris.Attack();
             dirk.Attack();
         }
-        else if
+        else if 
         (
             iris.data.action == Action.Guard && 
             dirk.data.action == Action.Attack
@@ -81,17 +90,30 @@ public class GameManager : MonoBehaviour
         else if
         (
             iris.data.action == Action.Guard && 
-            dirk.data.action == Action.Bind && 
-            dirk.Will() > iris.Will()
+            dirk.data.action == Action.Bind
         )
         {
             dirk.Bind();
         }
         else if
         (
-            iris.data.action == Action.Guard && 
-            dirk.data.action == Action.Attack && 
-            iris.Will() > dirk.Will()
+            iris.data.action == Action.Bind && 
+            dirk.data.action == Action.Attack
+        )
+        {
+            dirk.Attack();
+        }else if
+        (
+            iris.data.action == Action.Attack && 
+            dirk.data.action == Action.Bind
+        )
+        {
+            iris.Attack();
+        }
+        else if
+        (
+            iris.data.action == Action.Bind && 
+            dirk.data.action == Action.Guard
         )
         {
             iris.Bind();
@@ -99,7 +121,6 @@ public class GameManager : MonoBehaviour
         else if
         (
             iris.Will() <= willThreshold && 
-            iris.Bindings() > bindingsThreshold && 
             dirk.data.action == Action.Tease
         )
         {
@@ -108,34 +129,36 @@ public class GameManager : MonoBehaviour
         else if
         (
             dirk.Will() <= willThreshold && 
-            dirk.Bindings() > bindingsThreshold && 
             iris.data.action == Action.Tease
         )
-        {}
+        {
+            iris.Tease();
+        }
         else if
         (
-            dirk.Will() <= willThreshold && 
-            dirk.Bindings() > bindingsThreshold && 
             dirk.data.action == Action.Struggle
         )
-        {}
+        {
+            dirk.Attack();
+            dirk.IncrementWill(-dirk.Damage());
+        }
         else if
         (
-            dirk.Will() <= willThreshold && 
-            dirk.Bindings() > bindingsThreshold && 
             iris.data.action == Action.Struggle
         )
-        {}
+        {
+            iris.Attack();
+            iris.IncrementWill(-iris.Damage());
+        }
 
         iris.data.action = iris.Decide(); // sets up the action after the turn resolves so we can set up Iris' tell.
-        irisAction = iris.data.action;
+        irisAction = iris.data.action; // Queue up the next action
     }
 
     Action DirkTeaseOrStruggle()
     {
-        if(dirk.Bindings() > 60)
-            return Action.Struggle;
-        else
-            return Action.Tease;
+        return dirk.Bindings() > 60
+            ? Action.Struggle
+            : Action.Tease;
     }
 }
