@@ -1,19 +1,10 @@
 fileFormatVersion: 2
-<<<<<<<< HEAD:Assets/Sprites/dirk/DirkBackBinding0.png.meta
-guid: 8c40ea225e52743078ec88649ca2ce6c
+guid: eeef3a643c0034186bcb4032930c2a2d
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: 3579330065600398297
-    second: DirkBackBinding0_0
-========
-guid: af94d4dea3c2d45ee97eaead1e3ccf94
-TextureImporter:
-  internalIDToNameTable:
-  - first:
-      213: 4566237641302739410
-    second: BattleAnim2.1_0
->>>>>>>> c1755c6 (arranged image assets):Assets/Sprites/yaaaayy/iris/bindings/stage1_0.png.meta
+      213: -4119976119452264964
+    second: BattleAnim3.2_0
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -122,23 +113,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-<<<<<<<< HEAD:Assets/Sprites/dirk/DirkBackBinding0.png.meta
-      name: DirkBackBinding0_0
+      name: BattleAnim3.2_0
       rect:
         serializedVersion: 2
-        x: 233
-        y: 0
-        width: 957
-        height: 1342
-========
-      name: BattleAnim2.1_0
-      rect:
-        serializedVersion: 2
-        x: 647
-        y: 250
-        width: 988
-        height: 1445
->>>>>>>> c1755c6 (arranged image assets):Assets/Sprites/yaaaayy/iris/bindings/stage1_0.png.meta
+        x: 732
+        y: 285
+        width: 777
+        height: 1317
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -147,13 +128,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-<<<<<<<< HEAD:Assets/Sprites/dirk/DirkBackBinding0.png.meta
-      spriteID: 9d3ccf50bb55ca130800000000000000
-      internalID: 3579330065600398297
-========
-      spriteID: 2d90ed911f88e5f30800000000000000
-      internalID: 4566237641302739410
->>>>>>>> c1755c6 (arranged image assets):Assets/Sprites/yaaaayy/iris/bindings/stage1_0.png.meta
+      spriteID: cf594f44c87e2d6c0800000000000000
+      internalID: -4119976119452264964
       vertices: []
       indices: 
       edges: []
@@ -171,12 +147,8 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-<<<<<<<< HEAD:Assets/Sprites/dirk/DirkBackBinding0.png.meta
-    nameFileIdTable: {}
-========
     nameFileIdTable:
-      BattleAnim2.1_0: 4566237641302739410
->>>>>>>> c1755c6 (arranged image assets):Assets/Sprites/yaaaayy/iris/bindings/stage1_0.png.meta
+      BattleAnim3.2_0: -4119976119452264964
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
