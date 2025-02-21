@@ -22,6 +22,7 @@ public class GameManager : MonoBehaviour
         irisAction = iris.data.action;
         irisBindings = iris.data.bindings;
         irisWill = iris.data.will;
+        iris.GetComponent<Animator>().SetInteger("bindings", iris.Bindings());
 
         dirkAction = dirk.data.action;
         dirkBindings = dirk.data.bindings;
