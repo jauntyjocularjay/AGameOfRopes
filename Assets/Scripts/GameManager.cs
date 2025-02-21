@@ -5,6 +5,7 @@ public class GameManager : MonoBehaviour
 {
     public int willThreshold = 40;
     public int turn = 0;
+    public AudioManager audioManager;
     [Header("Iris")]
     public Iris iris;
     public CharacterData irisData;
