@@ -301,7 +301,7 @@ SpriteRenderer:
   m_Size: {x: 10.8, y: 10.8}
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
-  m_WasSpriteAssigned: 1
+  m_WasSpriteAssigned: 0
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
 --- !u!1 &2046789537
@@ -403,6 +403,30 @@ PrefabInstance:
       propertyPath: iris
       value: 
       objectReference: {fileID: 1098033471}
+    - target: {fileID: 2095741081992317002, guid: fecc7a7c8ff184edf8a410d3fe035ddb, type: 3}
+      propertyPath: dirkWill
+      value: 60
+      objectReference: {fileID: 0}
+    - target: {fileID: 2095741081992317002, guid: fecc7a7c8ff184edf8a410d3fe035ddb, type: 3}
+      propertyPath: dirkAction
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 2095741081992317002, guid: fecc7a7c8ff184edf8a410d3fe035ddb, type: 3}
+      propertyPath: weaponBind
+      value: 
+      objectReference: {fileID: 6418180475301049370, guid: b56b182bd8de0ca42a3e3546ec9c4ffc, type: 2}
+    - target: {fileID: 2095741081992317002, guid: fecc7a7c8ff184edf8a410d3fe035ddb, type: 3}
+      propertyPath: weaponGuard
+      value: 
+      objectReference: {fileID: 6418180475301049370, guid: 639c784474a14084ab07fedc35644ed8, type: 2}
+    - target: {fileID: 2095741081992317002, guid: fecc7a7c8ff184edf8a410d3fe035ddb, type: 3}
+      propertyPath: dirkBindings
+      value: 70
+      objectReference: {fileID: 0}
+    - target: {fileID: 2095741081992317002, guid: fecc7a7c8ff184edf8a410d3fe035ddb, type: 3}
+      propertyPath: weaponAttack
+      value: 
+      objectReference: {fileID: 6418180475301049370, guid: 780baf7e163dadd459555eb4c4def50d, type: 2}
     - target: {fileID: 6945742917508906930, guid: fecc7a7c8ff184edf8a410d3fe035ddb, type: 3}
       propertyPath: m_LocalPosition.x
       value: 0
@@ -716,4 +740,3 @@ SceneRoots:
   - {fileID: 6869591853595046929}
   - {fileID: 5521099434489836705}
   - {fileID: 2633333674239363969}
-  - {fileID: 2046789540}

@@ -50,7 +50,7 @@ AudioRandomContainer:
   - {fileID: -3240333482506972777}
   - {fileID: -8431545201983092029}
   m_AvoidRepeatingLast: 0
-  m_PlaybackMode: 1
+  m_PlaybackMode: 2
   m_TriggerMode: 0
   m_AutomaticTriggerMode: 1
   m_LoopMode: 2

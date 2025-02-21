@@ -10,6 +10,16 @@ AudioContainerElement:
   m_AudioClip: {fileID: 8300000, guid: 47c164daa2c4e1143a5375a57c9b6289, type: 3}
   m_Volume: 0
   m_Enabled: 1
+--- !u!1233149941 &-3830161442546328370
+AudioContainerElement:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: Bolas_{-3830161442546328370}
+  m_AudioClip: {fileID: 8300000, guid: d6f526d339dc7e24f9398d0a5db40d12, type: 3}
+  m_Volume: 0
+  m_Enabled: 1
 --- !u!1233149941 &-3631446658101726448
 AudioContainerElement:
   m_ObjectHideFlags: 1
@@ -38,8 +48,9 @@ AudioRandomContainer:
   m_Elements:
   - {fileID: -3631446658101726448}
   - {fileID: -8411873037187047924}
+  - {fileID: -3830161442546328370}
   m_AvoidRepeatingLast: 0
-  m_PlaybackMode: 1
+  m_PlaybackMode: 2
   m_TriggerMode: 0
   m_AutomaticTriggerMode: 1
   m_LoopMode: 2
