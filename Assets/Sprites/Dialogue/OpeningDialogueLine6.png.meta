@@ -1,29 +1,10 @@
 fileFormatVersion: 2
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<<< HEAD:Assets/Sprites/dirk/DirkBackBinding3.png.meta
-=======
->>>>>>> b5cfd4d (updated meta)
-guid: 8ba8dc65ed91c4b4e8bbc61e4f677254
-=======
-guid: 0d1d6c2daeb264d9a95c3d61f3319fb4
->>>>>>> 3174716 (new meta files)
+guid: 3cb2480c399314fb78d2948322b1ff20
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: 5957202560790731021
-    second: DirkBackBinding3_0
-<<<<<<< HEAD
-========
-guid: ba90d19ec1f4e4da695baf53f5a1f219
-TextureImporter:
-  internalIDToNameTable:
-  - first:
-      213: 3463391953794452824
-    second: BattleAnim1.4_0
->>>>>>>> c1755c6 (arranged image assets):Assets/Sprites/yaaaayy/iris/bindings/stage0_3.png.meta
-=======
->>>>>>> b5cfd4d (updated meta)
+      213: -7873934540229143204
+    second: OpeningDialogueLine6_0
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -65,28 +46,12 @@ TextureImporter:
   nPOTScale: 0
   lightmap: 0
   compressionQuality: 50
-<<<<<<< HEAD:Assets/Sprites/dirk/DirkBackBinding3.png.meta
-<<<<<<< HEAD
-  spriteMode: 1
-=======
   spriteMode: 2
->>>>>>> b5cfd4d (updated meta)
-=======
-  spriteMode: 1
->>>>>>> 30750cd (added ending scene):Assets/Sprites/dirk/Binding3.png.meta
   spriteExtrude: 1
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-<<<<<<< HEAD:Assets/Sprites/dirk/DirkBackBinding3.png.meta
-<<<<<<< HEAD
-  spritePixelsToUnits: 128
-=======
   spritePixelsToUnits: 100
->>>>>>> b5cfd4d (updated meta)
-=======
-  spritePixelsToUnits: 128
->>>>>>> 30750cd (added ending scene):Assets/Sprites/dirk/Binding3.png.meta
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
@@ -148,29 +113,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-<<<<<<< HEAD
-<<<<<<<< HEAD:Assets/Sprites/dirk/DirkBackBinding3.png.meta
-=======
->>>>>>> b5cfd4d (updated meta)
-      name: DirkBackBinding3_0
+      name: OpeningDialogueLine6_0
       rect:
         serializedVersion: 2
-        x: 233
-        y: 0
-        width: 679
-        height: 1342
-<<<<<<< HEAD
-========
-      name: BattleAnim1.4_0
-      rect:
-        serializedVersion: 2
-        x: 533
-        y: 247
-        width: 931
-        height: 1411
->>>>>>>> c1755c6 (arranged image assets):Assets/Sprites/yaaaayy/iris/bindings/stage0_3.png.meta
-=======
->>>>>>> b5cfd4d (updated meta)
+        x: 12
+        y: 11
+        width: 1971
+        height: 499
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -179,18 +128,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-<<<<<<< HEAD
-<<<<<<<< HEAD:Assets/Sprites/dirk/DirkBackBinding3.png.meta
-      spriteID: d099afa9a2c3ca250800000000000000
-      internalID: 5957202560790731021
-========
-      spriteID: 85d4dd3d1a0701030800000000000000
-      internalID: 3463391953794452824
->>>>>>>> c1755c6 (arranged image assets):Assets/Sprites/yaaaayy/iris/bindings/stage0_3.png.meta
-=======
-      spriteID: d099afa9a2c3ca250800000000000000
-      internalID: 5957202560790731021
->>>>>>> b5cfd4d (updated meta)
+      spriteID: c5596f8e04a2ab290800000000000000
+      internalID: -7873934540229143204
       vertices: []
       indices: 
       edges: []
@@ -199,15 +138,7 @@ TextureImporter:
     customData: 
     physicsShape: []
     bones: []
-<<<<<<< HEAD:Assets/Sprites/dirk/DirkBackBinding3.png.meta
-<<<<<<< HEAD
-    spriteID: 5e97eb03825dee720800000000000000
-=======
     spriteID: 
->>>>>>> b5cfd4d (updated meta)
-=======
-    spriteID: 5e97eb03825dee720800000000000000
->>>>>>> 30750cd (added ending scene):Assets/Sprites/dirk/Binding3.png.meta
     internalID: 0
     vertices: []
     indices: 
@@ -216,21 +147,7 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-<<<<<<< HEAD:Assets/Sprites/dirk/DirkBackBinding3.png.meta
-<<<<<<< HEAD
-<<<<<<<< HEAD:Assets/Sprites/dirk/DirkBackBinding3.png.meta
     nameFileIdTable: {}
-========
-    nameFileIdTable:
-      BattleAnim1.4_0: 3463391953794452824
->>>>>>>> c1755c6 (arranged image assets):Assets/Sprites/yaaaayy/iris/bindings/stage0_3.png.meta
-=======
-    nameFileIdTable: {}
->>>>>>> b5cfd4d (updated meta)
-=======
-    nameFileIdTable:
-      DirkBackBinding3_0: 5957202560790731021
->>>>>>> 30750cd (added ending scene):Assets/Sprites/dirk/Binding3.png.meta
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

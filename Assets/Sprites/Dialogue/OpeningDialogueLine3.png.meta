@@ -1,10 +1,10 @@
 fileFormatVersion: 2
-guid: 71c2674f1923d46b386ca29ca76e7662
+guid: f8d7b98def66841229cab3215c5e60dc
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: -5812580254835353599
-    second: DirkBackBinding1_0
+      213: -4245863969764347852
+    second: OpeningDialogueLine3_0
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -46,12 +46,12 @@ TextureImporter:
   nPOTScale: 0
   lightmap: 0
   compressionQuality: 50
-  spriteMode: 1
+  spriteMode: 2
   spriteExtrude: 1
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spritePixelsToUnits: 128
+  spritePixelsToUnits: 100
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
@@ -113,13 +113,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: DirkBackBinding1_0
+      name: OpeningDialogueLine3_0
       rect:
         serializedVersion: 2
-        x: 233
-        y: 0
-        width: 640
-        height: 1342
+        x: 12
+        y: 11
+        width: 1971
+        height: 499
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -128,8 +128,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 108d61afd01955fa0800000000000000
-      internalID: -5812580254835353599
+      spriteID: 430f09d0739a315c0800000000000000
+      internalID: -4245863969764347852
       vertices: []
       indices: 
       edges: []
@@ -138,7 +138,7 @@ TextureImporter:
     customData: 
     physicsShape: []
     bones: []
-    spriteID: 5e97eb03825dee720800000000000000
+    spriteID: 
     internalID: 0
     vertices: []
     indices: 
@@ -147,8 +147,7 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable:
-      DirkBackBinding1_0: -5812580254835353599
+    nameFileIdTable: {}
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
