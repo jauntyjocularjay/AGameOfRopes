@@ -1,10 +1,10 @@
 fileFormatVersion: 2
-guid: 6679dea0c934d449e87b3133a38c0c13
+guid: 41bfd4c10f21449c8a49dffed7d17704
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: 675328098830139309
-    second: dirk-temp_0
+      213: -5693893036611090117
+    second: BattleAnim3.4_0
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -51,7 +51,7 @@ TextureImporter:
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spritePixelsToUnits: 100
+  spritePixelsToUnits: 128
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
@@ -113,13 +113,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: dirk-temp_0
+      name: BattleAnim3.4_0
       rect:
         serializedVersion: 2
-        x: 23
-        y: 0
-        width: 171
-        height: 251
+        x: 716
+        y: 301
+        width: 754
+        height: 1428
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -128,8 +128,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: daf3c9de35f3f5900800000000000000
-      internalID: 675328098830139309
+      spriteID: b39c9b3637a3bf0b0800000000000000
+      internalID: -5693893036611090117
       vertices: []
       indices: 
       edges: []
@@ -148,7 +148,7 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      dirk-temp_0: 675328098830139309
+      BattleAnim3.4_0: -5693893036611090117
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
