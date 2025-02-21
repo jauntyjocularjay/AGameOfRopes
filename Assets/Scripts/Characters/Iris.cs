@@ -2,9 +2,11 @@ using System;
 
 public class Iris : Character
 {
+    public Tells tells;
     new void Start()
     {
         base.Start();
+        tells = GetComponentInChildren<Tells>();
         data.damage = 20;
         data.bind = 20;
         data.specialMultiplier = 3;
