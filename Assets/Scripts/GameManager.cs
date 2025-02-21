@@ -153,6 +153,10 @@ public class GameManager : MonoBehaviour
 
         iris.data.action = iris.Decide(); // sets up the action after the turn resolves so we can set up Iris' tell.
         irisAction = iris.data.action; // Queue up the next action
+        if(iris.data.action == Action.Attack) iris.tells.Attack();
+        if(iris.data.action == Action.Bind) iris.tells.Bind();
+        if(iris.data.action == Action.Guard) iris.tells.Guard();
+        
     }
 
     Action DirkTeaseOrStruggle()

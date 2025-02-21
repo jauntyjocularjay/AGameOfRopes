@@ -427,6 +427,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 808547377450753084, guid: 8f6ac0dfe9ba34faeaa108ab0c4697cf, type: 3}
+      propertyPath: m_SortingOrder
+      value: 60
+      objectReference: {fileID: 0}
     - target: {fileID: 2370604509527342481, guid: 8f6ac0dfe9ba34faeaa108ab0c4697cf, type: 3}
       propertyPath: m_LocalPosition.x
       value: 0
@@ -471,6 +475,14 @@ PrefabInstance:
       propertyPath: target
       value: 
       objectReference: {fileID: 792707657}
+    - target: {fileID: 6373758348826753849, guid: 8f6ac0dfe9ba34faeaa108ab0c4697cf, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6373758348826753849, guid: 8f6ac0dfe9ba34faeaa108ab0c4697cf, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 4.5
+      objectReference: {fileID: 0}
     - target: {fileID: 9084419781547813442, guid: 8f6ac0dfe9ba34faeaa108ab0c4697cf, type: 3}
       propertyPath: m_Name
       value: Iris
