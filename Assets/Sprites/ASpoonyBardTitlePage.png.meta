@@ -472,7 +472,21 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      ASpoonyBardTitlePage_0: -955135992057200533
+      ASpoonyBardTitlePage_1: 810467215205653470
+      ASpoonyBardTitlePage_10: -7748418853872466451
+      ASpoonyBardTitlePage_11: -3282583091472295679
+      ASpoonyBardTitlePage_12: -7962753485262764411
+      ASpoonyBardTitlePage_13: 5965919261860700095
+      ASpoonyBardTitlePage_2: 4017476727567411814
+      ASpoonyBardTitlePage_3: 7274863019358287572
+      ASpoonyBardTitlePage_4: 8353555308223175651
+      ASpoonyBardTitlePage_5: -4916675122756743576
+      ASpoonyBardTitlePage_6: -8858081288624549215
+      ASpoonyBardTitlePage_7: 7855101360423358405
+      ASpoonyBardTitlePage_8: 9155314719654984095
+      ASpoonyBardTitlePage_9: -4057020570167069767
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
