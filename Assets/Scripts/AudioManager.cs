@@ -12,10 +12,10 @@ public class AudioManager : MonoBehaviour
     }
     public void PlaySound(AudioResource resource)
 	{
-        if (!audioPlayer.isPlaying)
-        {
+        //if (!audioPlayer.isPlaying)
+        //{
             audioPlayer.resource = resource;
             audioPlayer.Play();
-        }
+        //}
 	}
 }
