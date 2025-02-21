@@ -301,7 +301,7 @@ SpriteRenderer:
   m_Size: {x: 10.8, y: 10.8}
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
-  m_WasSpriteAssigned: 0
+  m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
 --- !u!1 &2046789537
@@ -536,6 +536,18 @@ PrefabInstance:
       propertyPath: m_Name
       value: UI
       objectReference: {fileID: 0}
+    - target: {fileID: 4379487983534651744, guid: 49e48b24be07c4a48b799a3e14742830, type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: 175
+      objectReference: {fileID: 0}
+    - target: {fileID: 5661719136908218541, guid: 49e48b24be07c4a48b799a3e14742830, type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: 223
+      objectReference: {fileID: 0}
+    - target: {fileID: 8563651468374997768, guid: 49e48b24be07c4a48b799a3e14742830, type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: 125
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -740,3 +752,4 @@ SceneRoots:
   - {fileID: 6869591853595046929}
   - {fileID: 5521099434489836705}
   - {fileID: 2633333674239363969}
+  - {fileID: 2046789540}

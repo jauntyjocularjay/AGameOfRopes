@@ -80,18 +80,14 @@ public class GameManager : MonoBehaviour
                     attackFlag = true;
                     dirkHitFlag = true;
                     iris.Attack();
-                    audioManager.PlaySound(iris.data.a_Attack);
                 }
                 break;
             case Action.Guard:
-                audioManager.PlaySound(weaponGuard);
-                audioManager.PlaySound(iris.data.a_Guard);
                 if (dirk.data.action == Action.Attack)
                 {
                     attackFlag = true;
                     dirkHitFlag = true;
                     iris.Attack();
-                    audioManager.PlaySound(iris.data.a_Attack);
                 }    
                 break;
             case Action.Bind:
@@ -104,7 +100,6 @@ public class GameManager : MonoBehaviour
             case Action.Struggle:
                 iris.IncrementWill(-iris.Damage());
                 iris.IncrementBind(-iris.data.bind);
-                audioManager.PlaySound(iris.data.a_Struggle);
                 break;
             case Action.Tease:
                 iris.Tease();
@@ -119,17 +114,14 @@ public class GameManager : MonoBehaviour
                     attackFlag = true;
                     irisHitFlag = true;
                     dirk.Attack();
-                    audioManager.PlaySound(dirk.data.a_Attack);
                 }
                 break;
             case Action.Guard:
                 audioManager.PlaySound(weaponGuard);
-                audioManager.PlaySound(dirk.data.a_Guard);
                 if (iris.data.action == Action.Attack)
                 {
                     attackFlag = true;
                     dirk.Attack();
-                    audioManager.PlaySound(dirk.data.a_Attack);
                 }
                 break;
             case Action.Bind:
@@ -142,128 +134,11 @@ public class GameManager : MonoBehaviour
             case Action.Struggle:
                 dirk.IncrementWill(-dirk.Damage());
                 dirk.IncrementBind(-dirk.data.bind);
-                audioManager.PlaySound(dirk.data.a_Struggle);
                 break;
             case Action.Tease:
                 dirk.Tease();
                 break;
         }
-
-        if (attackFlag) { audioManager.PlaySound(weaponAttack); }
-        if (guardFlag) { audioManager.PlaySound(weaponGuard); }
-        if (irisHitFlag) { audioManager.PlaySound(iris.data.a_Guard); }
-        if (dirkHitFlag) { audioManager.PlaySound(dirk.data.a_Guard); }
-        if (bindFlag) { audioManager.PlaySound(weaponBind); }
-
-        //if
-        //(
-        //    iris.data.action == Action.Attack && 
-        //    dirk.data.action == Action.Attack)
-        //{
-        //    iris.Attack();
-        //    audioManager.PlaySound(iris.data.a_Attack);
-        //    dirk.Attack();
-        //    audioManager.PlaySound(dirk.data.a_Attack);
-        //    audioManager.PlaySound(weaponAttack);
-        //}
-        //else if 
-        //(
-        //    iris.data.action == Action.Guard && 
-        //    dirk.data.action == Action.Attack
-        //)
-        //{
-        //    iris.Attack(true);
-        //    audioManager.PlaySound(weaponGuard);
-        //    audioManager.PlaySound(iris.data.a_Attack);;
-        //}
-        //else if
-        //(
-        //    iris.data.action == Action.Attack && 
-        //    dirk.data.action == Action.Guard
-        //)
-        //{
-        //    dirk.Attack(true);
-        //    audioManager.PlaySound(weaponGuard);
-        //    audioManager.PlaySound(dirk.data.a_Attack);
-        //}
-        //else if
-        //(
-        //    iris.data.action == Action.Guard && 
-        //    dirk.data.action == Action.Guard
-        //)
-        //{
-        //    Debug.Log("Iris and Dirk both guard");
-        //}
-        //else if
-        //(
-        //    iris.data.action == Action.Guard && 
-        //    dirk.data.action == Action.Bind
-        //)
-        //{
-        //    dirk.Bind();
-        //    audioManager.PlaySound(weaponBind);
-        //    audioManager.PlaySound(iris.data.a_Guard);
-        //}
-        //else if
-        //(
-        //    iris.data.action == Action.Bind && 
-        //    dirk.data.action == Action.Attack
-        //)
-        //{
-        //    dirk.Attack();
-        //    audioManager.PlaySound(dirk.data.a_Attack);
-        //    audioManager.PlaySound(iris.data.a_Struggle);
-        //}else if
-        //(
-        //    iris.data.action == Action.Attack && 
-        //    dirk.data.action == Action.Bind
-        //)
-        //{
-        //    iris.Attack();
-        //    audioManager.PlaySound(iris.data.a_Attack);
-        //    audioManager.PlaySound(dirk.data.a_Struggle);
-        //}
-        //else if
-        //(
-        //    iris.data.action == Action.Bind && 
-        //    dirk.data.action == Action.Guard
-        //)
-        //{
-        //    iris.Bind();
-        //    audioManager.PlaySound(dirk.data.a_Struggle);
-        //}
-        //else if
-        //(
-        //    iris.Will() <= willThreshold && 
-        //    dirk.data.action == Action.Tease
-        //)
-        //{
-        //    dirk.Tease();
-        //}
-        //else if
-        //(
-        //    dirk.Will() <= willThreshold && 
-        //    iris.data.action == Action.Tease
-        //)
-        //{
-        //    iris.Tease();
-        //}
-        //else if
-        //(
-        //    dirk.data.action == Action.Struggle
-        //)
-        //{
-        //    dirk.Attack();
-        //    dirk.IncrementWill(-dirk.Damage());
-        //}
-        //else if
-        //(
-        //    iris.data.action == Action.Struggle
-        //)
-        //{
-        //    iris.Attack();
-        //    iris.IncrementWill(-iris.Damage());
-        //}
 
         iris.data.action = iris.Decide(); // sets up the action after the turn resolves so we can set up Iris' tell.
         irisAction = iris.data.action; // Queue up the next action
