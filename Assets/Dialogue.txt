@@ -1,4 +1,5 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
 Establishing Scene 
 
 // Display Side Profiles.png with forest Background
@@ -27,25 +28,50 @@ Dirk: "Itâ€™s on!"
 // BattleAnim1.0 - 4.4 for Iris and DirkBackBinding0 - 4 for Dirk
 =======
 Establishing Scene
+=======
+Establishing Scene 
+
+// Display Side Profiles.png with forest Background
+>>>>>>> 83abc6b (Added Scene Descriptions)
 
 Iris: "You always do this!"
 
 Dirk: "Do not!"
 
+<<<<<<< HEAD
 Iris: "You do! (in a mocking tone) 'I posted the quest, I get the super cool gear'. Iï¿½M the one who slew the damn dragon. I should get first dibs."
 
 Dirk: "Yes, you killed the dragon. Which, Iï¿½ll remind you, *wasnï¿½t* part of the plan."
+=======
+Iris: "You do! (in a mocking tone) 'I posted the quest, I get the super cool gear'. I’M the one who slew the damn dragon. I should get first dibs."
+
+Dirk: "Yes, you killed the dragon. Which, I’ll remind you, *wasn’t* part of the plan."
+>>>>>>> 83abc6b (Added Scene Descriptions)
 
 Iris: "You and your plans. Why do they always seem to involve seducing something?"
 
 Dirk: "Diplomacy is a very effective to-"
 
+<<<<<<< HEAD
 Iris: "Grrrrrr. THATï¿½S IT! Weï¿½re settling this once and for all."
+=======
+Iris: "Grrrrrr. THAT’S IT! We’re settling this once and for all."
+
+Dirk: "Iris, ple-"
+>>>>>>> 83abc6b (Added Scene Descriptions)
 
 Iris: "I challenge you to a duel. First to submit has to listen
 to the winner for the next quest."
 
+<<<<<<< HEAD
 Dirk: "Itï¿½s on!"
+=======
+Dirk: "It’s on!"
+
+// End Side Profiles,
+// Display the battle animations for Dirk and Iris with forest Background.
+// BattleAnim1.0 - 4.4 for Iris and DirkBackBinding0 - 4 for Dirk
+>>>>>>> 83abc6b (Added Scene Descriptions)
 
 
 In-Battle Grievances
@@ -96,6 +122,7 @@ In-Battle Grievances
 	Concede: "No...I...I'm sorry I didn't tell you sooner. The priest never fully removed the Lich's curse. I'm still charmed."
 
 Victory
+<<<<<<< HEAD
 Iris: "Haaa, Haaa... you win."
 Dirk: "I'm sorry Iris, I didn't realise how far apart we'd grown."
 Dirk: "Lets finish mending that connection shall we?"
@@ -103,3 +130,16 @@ Dirk: "Lets finish mending that connection shall we?"
 Defeat
 Iris: " And now you... will listen to ME.	Game Over.	Reload the browser to try again
 >>>>>>> 83c3e7a (added first draft of dialogue)
+=======
+// Pause the Battle Animations, while the outro dialogue plays.
+// Might be easier to just end the animation, and display Iris's BattleAnim4.0.png and Dirks DirkBackBinding0 Image with a dialogue box
+
+... Dialogue
+
+// Display GameWinScene.png with the forest background
+
+
+Defeat
+// Display GameLoseScene.png with the forest Background.
+Dialogue
+>>>>>>> 83abc6b (Added Scene Descriptions)
