@@ -1,21 +1,28 @@
 using UnityEngine;
 
+[ExecuteAlways]
 public class Dirk : Character
 {
+    public Sprite dirkbound0;
+    public Sprite dirkbound1;
+    public Sprite dirkbound2;
+    public Sprite dirkbound3;
+    public Sprite dirkbound4;
     new void Start()
     {
         base.Start();
-        IncrementWill(12);
-        data.damage = 1;
-        data.bind = 1;
-        data.specialMultiplier = 15;
+        data.damage = 10;
+        data.bind = 10;
+        data.specialMultiplier = 2;
     }
-    override public int Damage()
+
+    void Update()
     {
-        return data.damage;
-    }
-    override public int Struggle()
-    {
-        return data.bind;
+        if(data.bindings < 30) SpriteRenderer().sprite = dirkbound0;
+        else if(data.bindings < 60) SpriteRenderer().sprite = dirkbound1;
+        else if(data.bindings < 90) SpriteRenderer().sprite = dirkbound2;
+        else if(data.bindings < 90) SpriteRenderer().sprite = dirkbound3;
+        else SpriteRenderer().sprite = dirkbound4;
     }
 }
+

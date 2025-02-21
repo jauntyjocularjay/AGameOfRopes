@@ -1,3 +1,117 @@
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 46ee835 (added first draft of dialogue)
+Establishing Scene 
+
+// Display Side Profiles.png with forest Background
+
+Iris: "You always do this!"
+
+Dirk: "Do not!"
+
+Iris: "You do! (in a mocking tone) 'I posted the quest, I get the super cool gear'. Iâ€™M the one who slew the damn dragon. I should get first dibs."
+
+Dirk: "Yes, you killed the dragon. Which, Iâ€™ll remind you, *wasnâ€™t* part of the plan."
+
+Iris: "You and your plans. Why do they always seem to involve seducing something?"
+
+Dirk: "Diplomacy is a very effective to-"
+
+Iris: "Grrrrrr. THATâ€™S IT! Weâ€™re settling this once and for all."
+
+Iris: "I challenge you to a duel. First to submit has to listen
+to the winner for the next quest."
+
+Dirk: "Itâ€™s on!"
+
+// End Side Profiles,
+// Display the battle animations for Dirk and Iris with forest Background.
+// BattleAnim1.0 - 4.4 for Iris and DirkBackBinding0 - 4 for Dirk
+=======
+Establishing Scene
+=======
+Establishing Scene 
+
+// Display Side Profiles.png with forest Background
+>>>>>>> 83abc6b (Added Scene Descriptions)
+
+Iris: "You always do this!"
+
+Dirk: "Do not!"
+
+<<<<<<< HEAD
+Iris: "You do! (in a mocking tone) 'I posted the quest, I get the super cool gear'. Iï¿½M the one who slew the damn dragon. I should get first dibs."
+
+Dirk: "Yes, you killed the dragon. Which, Iï¿½ll remind you, *wasnï¿½t* part of the plan."
+=======
+Iris: "You do! (in a mocking tone) 'I posted the quest, I get the super cool gear'. I’M the one who slew the damn dragon. I should get first dibs."
+
+Dirk: "Yes, you killed the dragon. Which, I’ll remind you, *wasn’t* part of the plan."
+>>>>>>> 83abc6b (Added Scene Descriptions)
+
+Iris: "You and your plans. Why do they always seem to involve seducing something?"
+
+Dirk: "Diplomacy is a very effective to-"
+
+<<<<<<< HEAD
+Iris: "Grrrrrr. THATï¿½S IT! Weï¿½re settling this once and for all."
+=======
+Iris: "Grrrrrr. THAT’S IT! We’re settling this once and for all."
+
+Dirk: "Iris, ple-"
+>>>>>>> 83abc6b (Added Scene Descriptions)
+
+Iris: "I challenge you to a duel. First to submit has to listen
+to the winner for the next quest."
+
+<<<<<<< HEAD
+Dirk: "Itï¿½s on!"
+=======
+Dirk: "It’s on!"
+
+// End Side Profiles,
+// Display the battle animations for Dirk and Iris with forest Background.
+// BattleAnim1.0 - 4.4 for Iris and DirkBackBinding0 - 4 for Dirk
+<<<<<<< HEAD
+>>>>>>> 83abc6b (Added Scene Descriptions)
+=======
+=======
+Establishing Scene
+
+Iris: "You always do this!"
+
+Dirk: "Do not!"
+
+Iris: "You do! (in a mocking tone) 'I posted the quest, I get the super cool gear'. I�M the one who slew the damn dragon. I should get first dibs."
+
+Dirk: "Yes, you killed the dragon. Which, I�ll remind you, *wasn�t* part of the plan."
+
+Iris: "You and your plans. Why do they always seem to involve seducing something?"
+
+Dirk: "Diplomacy is a very effective to-"
+
+Iris: "Grrrrrr. THAT�S IT! We�re settling this once and for all."
+
+Dirk: "Iris, ple-"
+
+Iris: "I challenge you to a duel. First to submit has to listen
+to the winner for the next quest."
+
+<<<<<<< HEAD
+Dirk: It�s on!
+
+>>>>>>> 83c3e7a (added first draft of dialogue)
+>>>>>>> 46ee835 (added first draft of dialogue)
+=======
+Dirk: "It�s on!"
+>>>>>>> a2f17ff (added Yaaaaayy's changes)
+=======
+>>>>>>> dev
 Establishing Scene
 
 Iris: "You always do this!"
@@ -17,13 +131,152 @@ Iris: "Grrrrrr. THAT�S IT! We�re settling this once and for all."
 Dirk: "Iris, ple-"
 
 Iris: "I challenge you to a duel. First to submit has to listen
+<<<<<<< HEAD
 to the winner until the next quest."
 
 Dirk: "It�s on!"
+=======
+to the winner for the next quest."
+
+<<<<<<< HEAD
+>>>>>>> 83c3e7a (added first draft of dialogue)
+=======
+Dirk: "It�s on!"
+>>>>>>> cbfd0bb (added Yaaaaayy's changes)
+>>>>>>> dev
 
 
 In-Battle Grievances
 
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+1. Dirk uses words, Iris uses force
+"I’m surprised you haven’t tried to talk your way out of this. It seems to be the only thing you’re good at."
+
+	Berate: "I'm surprised you're talking at all, since fighting is all you know."
+
+	Respond: "I am quite good at it, and its gotten us out of a pickle on more than one occasion."
+
+	Concede: "I talk too much?...I'm sorry."
+
+2. Iris and Dirk use similar weaponry and always squabble over gear
+"I never get any of the good loot. Who ever heard of a bard using warrior gear? And what is that weapon anyway? An axe? An instrument? It’s ridiculous!"
+
+	Berate: "Mordred is a more reliable companion than you will ever be!" (snicker) "You *named* it? That’s pathetic."
+
+	Respond: "I assumed you wouldn’t want this small-time loot. Didn’t your parents buy you the best armor money could buy?"
+
+	Concede: "I've been selfish. I'll be more thoughtful from now on."
+
+3. Dirk gets in trouble with the Guard, Iris springs traps
+"You're always getting me into trouble. The townsguard eyes ME with suspicion now because I'm seen with you."
+
+	Berate: "I put you in danger? Ha! If it wasn't for you charging ahead without looking, we wouldn't have spent an hour in the dragon's pitfall trap!"
+
+	Respond: "We each have our weaknesses, but we cover each other with our strengths. That's what makes us a good team."
+
+	Concede: "You're right. I'll try to restore goodwill with the guards."
+
+4. Dirk wants safety, Iris wants respect
+"You’re overly cautious. How are we ever going to get the respect of the townspeople if we’re always taking small jobs, or worse, giving up on big ones!"
+
+	Berate: "No one will respect us if we’re dead!"
+
+	Respond: "I care more about keeping you safe than the respect of the ones around me. Trust me, once we get more experience, we'll take on bigger, better quests." 
+
+	Concede: "I thought the dragon was pretty tough...I guess aiming higher wouldn't hurt."
+
+5. Iris believes Dirk only quests with her because a lich’s curse charmed him
+"Admit it! You can't stand being around me! The only reason you go on these quests with me is that you feel guilty for what happened with that Lich."
+
+	Berate: "This is ridiculous! I'm not even going to justify that with an answer."
+
+	Respond: "No, of course not. Yes, I feel responsible for what happened, but I travel with you because you're a strong and capable person. I want you by my side, Iris."
+
+	Concede: "No...I...I'm sorry I didn't tell you sooner. The priest never fully removed the Lich's curse. I'm still charmed."
+
+Victory
+<<<<<<< HEAD
+Iris: "Haaa, Haaa... you win."
+Dirk: "I'm sorry Iris, I didn't realise how far apart we'd grown."
+Dirk: "Lets finish mending that connection shall we?"
+
+Defeat
+Iris: " And now you... will listen to ME.	Game Over.	Reload the browser to try again
+>>>>>>> 83c3e7a (added first draft of dialogue)
+=======
+// Pause the Battle Animations, while the outro dialogue plays.
+// Might be easier to just end the animation, and display Iris's BattleAnim4.0.png and Dirks DirkBackBinding0 Image with a dialogue box
+
+... Dialogue
+
+// Display GameWinScene.png with the forest background
+=======
+1. Dirk uses words, Iris uses force
+"I�m surprised you haven�t tried to talk your way out of this. It seems to be the only thing you�re good at."
+
+	Berate: "I'm surprised you're talking at all, since fighting is all you know."
+
+	Respond: "I am quite good at it, and its gotten us out of a pickle on more than one occasion."
+
+	Concede: "I talk too much?...I'm sorry."
+
+2. Iris and Dirk use similar weaponry and always squabble over gear
+"I never get any of the good loot. Who ever heard of a bard using warrior gear? And what is that weapon anyway? An axe? An instrument? It�s ridiculous!"
+
+	Berate: "Mordred is a more reliable companion than you will ever be!" (snicker) "You *named* it? That�s pathetic."
+
+	Respond: "I assumed you wouldn�t want this small-time loot. Didn�t your parents buy you the best armor money could buy?"
+
+	Concede: "I've been selfish. I'll be more thoughtful from now on."
+
+3. Dirk gets in trouble with the Guard, Iris springs traps
+"You're always getting me into trouble. The townsguard eyes ME with suspicion now because I'm seen with you."
+
+	Berate: "I put you in danger? Ha! If it wasn't for you charging ahead without looking, we wouldn't have spent an hour in the dragon's pitfall trap!"
+
+	Respond: "We each have our weaknesses, but we cover each other with our strengths. That's what makes us a good team."
+
+	Concede: "You're right. I'll try to restore goodwill with the guards."
+
+4. Dirk wants safety, Iris wants respect
+"You�re overly cautious. How are we ever going to get the respect of the townspeople if we�re always taking small jobs, or worse, giving up on big ones!"
+
+	Berate: "No one will respect us if we�re dead!"
+
+	Respond: "I care more about keeping you safe than the respect of the ones around me. Trust me, once we get more experience, we'll take on bigger, better quests." 
+
+	Concede: "I thought the dragon was pretty tough...I guess aiming higher wouldn't hurt."
+
+5. Iris believes Dirk only quests with her because a lich�s curse charmed him
+<<<<<<< HEAD
+>>>>>>> 48ed988 (started some grievance dialogue)
+=======
+"Admit it! You can't stand being around me! The only reason you go on these quests with me is that you feel guilty for what happened with that Lich."
+>>>>>>> bed92b4 (finished 2nd draft with in-battle dialogue)
+
+	Berate: "This is ridiculous! I'm not even going to justify that with an answer."
+
+	Respond: "No, of course not. Yes, I feel responsible for what happened, but I travel with you because you're a strong and capable person. I want you by my side, Iris."
+
+	Concede: "No...I...I'm sorry I didn't tell you sooner. The priest never fully removed the Lich's curse. I'm still charmed."
+
+Defeat
+// Display GameLoseScene.png with the forest Background.
+Dialogue
+<<<<<<< HEAD
+>>>>>>> 83abc6b (Added Scene Descriptions)
+=======
+=======
+=======
+=======
+>>>>>>> dev
 1. Dirk uses words, Iris uses force
 "I�m surprised you haven�t tried to talk your way out of this. It seems to be the only thing you�re good at."
 
@@ -38,12 +291,20 @@ In-Battle Grievances
 
 	Berate: "Mordred is a more reliable companion than you will ever be!" (snicker) "You *named* it? That�s pathetic."
 
+<<<<<<< HEAD
 	Respond: "I assumed you wouldn�t want this small-time loot. Didn�t your parents give you the best armor money could buy?"
+=======
+	Respond: "I assumed you wouldn�t want this small-time loot. Didn�t your parents buy you the best armor money could buy?"
+>>>>>>> dev
 
 	Concede: "I've been selfish. I'll be more thoughtful from now on."
 
 3. Dirk gets in trouble with the Guard, Iris springs traps
+<<<<<<< HEAD
 "You're always getting me into trouble. The townsguard now eyes ME with suspicion because I'm seen with you."
+=======
+"You're always getting me into trouble. The townsguard eyes ME with suspicion now because I'm seen with you."
+>>>>>>> dev
 
 	Berate: "I put you in danger? Ha! If it wasn't for you charging ahead without looking, we wouldn't have spent an hour in the dragon's pitfall trap!"
 
@@ -61,7 +322,15 @@ In-Battle Grievances
 	Concede: "I thought the dragon was pretty tough...I guess aiming higher wouldn't hurt."
 
 5. Iris believes Dirk only quests with her because a lich�s curse charmed him
+<<<<<<< HEAD
 "Admit it! You can't stand being around me! The only reason you go on these quests with me is that you feel guilty for what happened with that Lich."
+=======
+<<<<<<< HEAD
+>>>>>>> b5213da (started some grievance dialogue)
+=======
+"Admit it! You can't stand being around me! The only reason you go on these quests with me is that you feel guilty for what happened with that Lich."
+>>>>>>> 5f49573 (finished 2nd draft with in-battle dialogue)
+>>>>>>> dev
 
 	Berate: "This is ridiculous! I'm not even going to justify that with an answer."
 
@@ -69,6 +338,7 @@ In-Battle Grievances
 
 	Concede: "No...I...I'm sorry I didn't tell you sooner. The priest never fully removed the Lich's curse. I'm still charmed."
 
+<<<<<<< HEAD
 
 Tease Lines - Dirk
 
@@ -96,3 +366,81 @@ Iris: *sigh* "...you win."
 Defeat
 
 Dirk: *groan* "...you win."
+=======
+<<<<<<< HEAD
+=======
+Defeat
+// Display GameLoseScene.png with the forest Background.
+Dialogue
+<<<<<<< HEAD
+>>>>>>> 83abc6b (Added Scene Descriptions)
+=======
+=======
+=======
+=======
+1. Dirk uses words, Iris uses force
+"I�m surprised you haven�t tried to talk your way out of this. It seems to be the only thing you�re good at."
+
+	Berate: "I'm surprised you're talking at all, since fighting is all you know."
+
+	Respond: "I am quite good at it, and its gotten us out of a pickle on more than one occasion."
+
+	Concede: "I talk too much?...I'm sorry."
+
+2. Iris and Dirk use similar weaponry and always squabble over gear
+"I never get any of the good loot. Who ever heard of a bard using warrior gear? And what is that weapon anyway? An axe? An instrument? It�s ridiculous!"
+
+	Berate: "Mordred is a more reliable companion than you will ever be!" (snicker) "You *named* it? That�s pathetic."
+
+	Respond: "I assumed you wouldn�t want this small-time loot. Didn�t your parents buy you the best armor money could buy?"
+
+	Concede: "I've been selfish. I'll be more thoughtful from now on."
+
+3. Dirk gets in trouble with the Guard, Iris springs traps
+"You're always getting me into trouble. The townsguard eyes ME with suspicion now because I'm seen with you."
+
+	Berate: "I put you in danger? Ha! If it wasn't for you charging ahead without looking, we wouldn't have spent an hour in the dragon's pitfall trap!"
+
+	Respond: "We each have our weaknesses, but we cover each other with our strengths. That's what makes us a good team."
+
+	Concede: "You're right. I'll try to restore goodwill with the guards."
+
+4. Dirk wants safety, Iris wants respect
+"You�re overly cautious. How are we ever going to get the respect of the townspeople if we�re always taking small jobs, or worse, giving up on big ones!"
+
+	Berate: "No one will respect us if we�re dead!"
+
+	Respond: "I care more about keeping you safe than the respect of the ones around me. Trust me, once we get more experience, we'll take on bigger, better quests." 
+
+	Concede: "I thought the dragon was pretty tough...I guess aiming higher wouldn't hurt."
+
+5. Iris believes Dirk only quests with her because a lich�s curse charmed him
+<<<<<<< HEAD
+>>>>>>> b5213da (started some grievance dialogue)
+=======
+"Admit it! You can't stand being around me! The only reason you go on these quests with me is that you feel guilty for what happened with that Lich."
+>>>>>>> 5f49573 (finished 2nd draft with in-battle dialogue)
+
+	Berate: "This is ridiculous! I'm not even going to justify that with an answer."
+
+	Respond: "No, of course not. Yes, I feel responsible for what happened, but I travel with you because you're a strong and capable person. I want you by my side, Iris."
+
+	Concede: "No...I...I'm sorry I didn't tell you sooner. The priest never fully removed the Lich's curse. I'm still charmed."
+
+>>>>>>> dev
+>>>>>>> a2f17ff (added Yaaaaayy's changes)
+=======
+
+
+>>>>>>> cbfd0bb (added Yaaaaayy's changes)
+Victory
+
+Defeat
+>>>>>>> 83c3e7a (added first draft of dialogue)
+>>>>>>> 46ee835 (added first draft of dialogue)
+=======
+Victory
+
+Defeat
+>>>>>>> 83c3e7a (added first draft of dialogue)
+>>>>>>> dev

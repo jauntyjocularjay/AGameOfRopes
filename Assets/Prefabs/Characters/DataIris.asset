@@ -1,0 +1,26 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b2a79ef1748d445b6904d567ffa982d9, type: 3}
+  m_Name: DataIris
+  m_EditorClassIdentifier: 
+  alias: Iris
+  action: 3
+  maxWill: 120
+  will: 120
+  maxBindings: 120
+  bindings: 40
+  a_Attack: {fileID: 6418180475301049370, guid: b7cf55e58660e324a9deadeca742caf3, type: 2}
+  a_Guard: {fileID: 6418180475301049370, guid: c64ef7bccbd494f44a2237a4e49d306a, type: 2}
+  a_Struggle: {fileID: 6418180475301049370, guid: d78fa689e63ebea46a21a6fad25c42b2, type: 2}
+  damage: 20
+  bind: 20
+  specialMultiplier: 3

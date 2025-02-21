@@ -1,55 +1,73 @@
 using UnityEngine;
 
-public abstract class Character : Prop
+abstract public class Character : Prop
 {
-    int will;
-    int bindings;
-    public float specialMultiplier;
     public CharacterData data;
     public Character target;
     public new void Start()
     {
         base.Start();
-        will = data.maxWill;
-        bindings = 0;
-    }
-    void Update()
-    {
-        
+        data.will = data.maxWill;
+        data.bindings = 0;
     }
     public int Will()
     {
-        return will;
+        return data.will;
     }
-    public void IncrementWill(int i)
+    public void Will(int i)
     {
-        will += i;
+        data.will = i;
+    }
+    public void IncrementWill(int i = 1)
+    {
+        data.will += i;
+    }
+    public void SetAction(Action a)
+    {
+        data.action = a;
     }
     public int Bindings()
     {
-        return bindings;
+        return data.bindings;
+    }
+    public void Bindings(int i)
+    {
+        data.bindings = i;
     }
     public void IncrementBind(int i)
     {
-        bindings += i;
+        data.bindings += i;
     }
-    public void Attack()
+    public void Attack(bool special = false)
     {
-        target.IncrementWill(-data.damage);
+        Debug.Log($"{data.alias}.Attack()");
+        target.IncrementWill(-Damage());
     }
     public void Bind()
     {
-        if(target.Will() < Will())
+        Debug.Log($"{data.alias}.Bind()");
+        target.IncrementBind(data.bind);
+    }
+    public void Guard(bool reposte = false)
+    {
+        Debug.Log($"{data.alias}.Guard()");
+        if(reposte)
         {
-            target.IncrementBind(20);
-            // target.IncrementWill(-20);
+            Attack(true);
         }
     }
-    public void Guard()
-    {}
+    public void Struggle()
+    {
+        Debug.Log($"{data.alias}.Struggle()");
+        target.IncrementWill(-data.specialMultiplier * (data.maxWill - Will()) / data.maxWill);
+    }
     public void Tease()
-    {}
-
-    public abstract int Damage();
-    public abstract int Struggle();
+    {
+        Debug.Log($"{data.alias}.Tease()");
+        IncrementWill(data.damage & data.specialMultiplier);
+    }
+    public int Damage()
+    {
+        return -data.damage * (Bindings() - data.maxBindings) / data.maxBindings;
+    }
 }
