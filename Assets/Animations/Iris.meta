@@ -1,5 +1,9 @@
 fileFormatVersion: 2
+<<<<<<<< HEAD:Assets/Animations/Iris.meta
 guid: 4b1c6653600114bb7b870a5a64ba04ae
+========
+guid: 2259b1987347742b6abd5e9fd9dec667
+>>>>>>>> 13984de (PLAYABLE):Assets/Animations.meta
 folderAsset: yes
 DefaultImporter:
   externalObjects: {}

@@ -1,9 +1,17 @@
 fileFormatVersion: 2
+<<<<<<< HEAD
 <<<<<<<< HEAD:Assets/Animations.meta
 guid: 2259b1987347742b6abd5e9fd9dec667
 ========
 guid: 505af68952ecb40f0b5fd8fb045853cd
 >>>>>>>> c1755c6 (arranged image assets):Assets/Sprites/yaaaayy/dirk.meta
+=======
+<<<<<<<< HEAD:Assets/Animations/Iris.meta
+guid: 4b1c6653600114bb7b870a5a64ba04ae
+========
+guid: 2259b1987347742b6abd5e9fd9dec667
+>>>>>>>> 13984de (PLAYABLE):Assets/Animations.meta
+>>>>>>> 13984de (PLAYABLE)
 folderAsset: yes
 DefaultImporter:
   externalObjects: {}
