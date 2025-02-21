@@ -18,9 +18,9 @@ MonoBehaviour:
   will: 120
   maxBindings: 120
   bindings: 0
-  a_Attack: {fileID: 0}
-  a_Guard: {fileID: 0}
-  a_Struggle: {fileID: 0}
+  a_Attack: {fileID: 6418180475301049370, guid: b7cf55e58660e324a9deadeca742caf3, type: 2}
+  a_Guard: {fileID: 6418180475301049370, guid: c64ef7bccbd494f44a2237a4e49d306a, type: 2}
+  a_Struggle: {fileID: 6418180475301049370, guid: d78fa689e63ebea46a21a6fad25c42b2, type: 2}
   damage: 2
   bind: 2
   specialMultiplier: 3
