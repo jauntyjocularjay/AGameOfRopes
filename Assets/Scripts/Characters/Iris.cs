@@ -10,6 +10,7 @@ public class Iris : Character
         data.bind = 20;
         data.specialMultiplier = 2;
         data.action = Decide();
+        teaseLines = new string[3] {"Oh nooo~, a stringed instrument. I'm sooo scared.", "When I win, we need to talk about changing your outfit. I have so many ideas!", "I wonder which part of me you'll enjoy serving the most..."};
     }
     public Action Decide()
     {

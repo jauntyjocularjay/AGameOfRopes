@@ -3,12 +3,15 @@ using UnityEngine;
 abstract public class Character : Prop
 {
     public CharacterData data;
+    protected string[] teaseLines;
+    public int teaseCounter;
     public Character target;
     public new void Start()
     {
         base.Start();
         data.will = data.maxWill;
         data.bindings = 0;
+        teaseCounter = 0;
     }
     public int Will()
     {
