@@ -223,7 +223,10 @@ MonoBehaviour:
   win: {fileID: 21300000, guid: f9c73b84dc25346c4b91767726af2297, type: 3}
   irisData: {fileID: 11400000, guid: 4808172a67e5d49ffbb575250f37d00c, type: 2}
   dirkData: {fileID: 11400000, guid: 8ce19925349d7411da3be9a46a0d870e, type: 2}
+<<<<<<< HEAD
   spriteRenderer: {fileID: 0}
+=======
+>>>>>>> 30750cd (added ending scene)
 --- !u!1 &519420028
 GameObject:
   m_ObjectHideFlags: 0
