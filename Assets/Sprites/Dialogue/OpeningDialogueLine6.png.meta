@@ -1,19 +1,10 @@
 fileFormatVersion: 2
-<<<<<<<< HEAD:Assets/Sprites/dirk/Binding0.png.meta
-guid: 8c40ea225e52743078ec88649ca2ce6c
+guid: 3cb2480c399314fb78d2948322b1ff20
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: 3579330065600398297
-    second: DirkBackBinding0_0
-========
-guid: f8d7b98def66841229cab3215c5e60dc
-TextureImporter:
-  internalIDToNameTable:
-  - first:
-      213: -4245863969764347852
-    second: OpeningDialogueLine3_0
->>>>>>>> dev:Assets/Sprites/Dialogue/OpeningDialogueLine3.png.meta
+      213: -7873934540229143204
+    second: OpeningDialogueLine6_0
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -55,12 +46,12 @@ TextureImporter:
   nPOTScale: 0
   lightmap: 0
   compressionQuality: 50
-  spriteMode: 1
+  spriteMode: 2
   spriteExtrude: 1
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spritePixelsToUnits: 128
+  spritePixelsToUnits: 100
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
@@ -122,23 +113,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-<<<<<<<< HEAD:Assets/Sprites/dirk/Binding0.png.meta
-      name: DirkBackBinding0_0
-      rect:
-        serializedVersion: 2
-        x: 233
-        y: 0
-        width: 957
-        height: 1342
-========
-      name: OpeningDialogueLine3_0
+      name: OpeningDialogueLine6_0
       rect:
         serializedVersion: 2
         x: 12
         y: 11
         width: 1971
         height: 499
->>>>>>>> dev:Assets/Sprites/Dialogue/OpeningDialogueLine3.png.meta
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -147,13 +128,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-<<<<<<<< HEAD:Assets/Sprites/dirk/Binding0.png.meta
-      spriteID: 9d3ccf50bb55ca130800000000000000
-      internalID: 3579330065600398297
-========
-      spriteID: 430f09d0739a315c0800000000000000
-      internalID: -4245863969764347852
->>>>>>>> dev:Assets/Sprites/Dialogue/OpeningDialogueLine3.png.meta
+      spriteID: c5596f8e04a2ab290800000000000000
+      internalID: -7873934540229143204
       vertices: []
       indices: 
       edges: []
@@ -162,7 +138,7 @@ TextureImporter:
     customData: 
     physicsShape: []
     bones: []
-    spriteID: 5e97eb03825dee720800000000000000
+    spriteID: 
     internalID: 0
     vertices: []
     indices: 
@@ -171,12 +147,7 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-<<<<<<<< HEAD:Assets/Sprites/dirk/Binding0.png.meta
-    nameFileIdTable:
-      DirkBackBinding0_0: 3579330065600398297
-========
     nameFileIdTable: {}
->>>>>>>> dev:Assets/Sprites/Dialogue/OpeningDialogueLine3.png.meta
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
