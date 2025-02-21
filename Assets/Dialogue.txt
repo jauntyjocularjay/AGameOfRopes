@@ -1,31 +1,37 @@
-Establishing Scene
+Establishing Scene 
+
+// Display Side Profiles.png with forest Background
 
 Iris: "You always do this!"
 
 Dirk: "Do not!"
 
-Iris: "You do! (in a mocking tone) 'I posted the quest, I get the super cool gear'. I’M the one who slew the damn dragon. I should get first dibs."
+Iris: "You do! (in a mocking tone) 'I posted the quest, I get the super cool gear'. Iâ€™M the one who slew the damn dragon. I should get first dibs."
 
-Dirk: "Yes, you killed the dragon. Which, I’ll remind you, *wasn’t* part of the plan."
+Dirk: "Yes, you killed the dragon. Which, Iâ€™ll remind you, *wasnâ€™t* part of the plan."
 
 Iris: "You and your plans. Why do they always seem to involve seducing something?"
 
 Dirk: "Diplomacy is a very effective to-"
 
-Iris: "Grrrrrr. THAT’S IT! We’re settling this once and for all."
+Iris: "Grrrrrr. THATâ€™S IT! Weâ€™re settling this once and for all."
 
 Dirk: "Iris, ple-"
 
 Iris: "I challenge you to a duel. First to submit has to listen
 to the winner for the next quest."
 
-Dirk: "It’s on!"
+Dirk: "Itâ€™s on!"
+
+// End Side Profiles,
+// Display the battle animations for Dirk and Iris with forest Background.
+// BattleAnim1.0 - 4.4 for Iris and DirkBackBinding0 - 4 for Dirk
 
 
 In-Battle Grievances
 
 1. Dirk uses words, Iris uses force
-"I’m surprised you haven’t tried to talk your way out of this. It seems to be the only thing you’re good at."
+"Iâ€™m surprised you havenâ€™t tried to talk your way out of this. It seems to be the only thing youâ€™re good at."
 
 	Berate: "I'm surprised you're talking at all, since fighting is all you know."
 
@@ -34,11 +40,11 @@ In-Battle Grievances
 	Concede: "I talk too much?...I'm sorry."
 
 2. Iris and Dirk use similar weaponry and always squabble over gear
-"I never get any of the good loot. Who ever heard of a bard using warrior gear? And what is that weapon anyway? An axe? An instrument? It’s ridiculous!"
+"I never get any of the good loot. Who ever heard of a bard using warrior gear? And what is that weapon anyway? An axe? An instrument? Itâ€™s ridiculous!"
 
-	Berate: "Mordred is a more reliable companion than you will ever be!" (snicker) "You *named* it? That’s pathetic."
+	Berate: "Mordred is a more reliable companion than you will ever be!" (snicker) "You *named* it? Thatâ€™s pathetic."
 
-	Respond: "I assumed you wouldn’t want this small-time loot. Didn’t your parents buy you the best armor money could buy?"
+	Respond: "I assumed you wouldnâ€™t want this small-time loot. Didnâ€™t your parents buy you the best armor money could buy?"
 
 	Concede: "I've been selfish. I'll be more thoughtful from now on."
 
@@ -52,15 +58,15 @@ In-Battle Grievances
 	Concede: "You're right. I'll try to restore goodwill with the guards."
 
 4. Dirk wants safety, Iris wants respect
-"You’re overly cautious. How are we ever going to get the respect of the townspeople if we’re always taking small jobs, or worse, giving up on big ones!"
+"Youâ€™re overly cautious. How are we ever going to get the respect of the townspeople if weâ€™re always taking small jobs, or worse, giving up on big ones!"
 
-	Berate: "No one will respect us if we’re dead!"
+	Berate: "No one will respect us if weâ€™re dead!"
 
 	Respond: "I care more about keeping you safe than the respect of the ones around me. Trust me, once we get more experience, we'll take on bigger, better quests." 
 
 	Concede: "I thought the dragon was pretty tough...I guess aiming higher wouldn't hurt."
 
-5. Iris believes Dirk only quests with her because a lich’s curse charmed him
+5. Iris believes Dirk only quests with her because a lichâ€™s curse charmed him
 "Admit it! You can't stand being around me! The only reason you go on these quests with me is that you feel guilty for what happened with that Lich."
 
 	Berate: "This is ridiculous! I'm not even going to justify that with an answer."
@@ -70,5 +76,14 @@ In-Battle Grievances
 	Concede: "No...I...I'm sorry I didn't tell you sooner. The priest never fully removed the Lich's curse. I'm still charmed."
 
 Victory
+// Pause the Battle Animations, while the outro dialogue plays.
+// Might be easier to just end the animation, and display Iris's BattleAnim4.0.png and Dirks DirkBackBinding0 Image with a dialogue box
+
+... Dialogue
+
+// Display GameWinScene.png with the forest background
+
 
 Defeat
+// Display GameLoseScene.png with the forest Background.
+Dialogue
